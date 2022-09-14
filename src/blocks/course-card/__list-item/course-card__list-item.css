@@ -1,0 +1,3 @@
+.course-card__list-item:first-of-type::after {
+	content: '...';
+}

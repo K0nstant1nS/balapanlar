@@ -1,0 +1,21 @@
+.courses__programming-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 40px auto 0;
+	padding: 50px 10px 10px;
+	background-color: #ffd643;
+}
+
+@media screen and (max-width: 768px) {
+	.courses__programming-wrapper {
+		padding: 40px 30px 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.courses__programming-wrapper {
+		margin-top: 30px;
+		padding: 50px 10px 10px;
+	}
+}

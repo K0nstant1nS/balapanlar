@@ -1,0 +1,27 @@
+.popup__text-skills {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(200px, 502px));
+	row-gap: 18px;
+	margin: 0;
+	padding: 0 0 0 34px;
+	font-size: 18px;
+	line-height: 21.94px;
+	column-gap: 54px;
+	list-style-image: url('../../../vendor/images/doneMark.svg');
+}
+
+@media screen and (max-width: 992px) {
+	.popup__text-skills {
+		grid-template-columns: minmax(min-content, max-content);
+		row-gap: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.popup__text-skills {
+		grid-template-columns: minmax(min-content, max-content);
+		row-gap: 20px;
+		font-size: 16px;
+		line-height: 19.5px;
+	}
+}

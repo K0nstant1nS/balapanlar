@@ -1,0 +1,48 @@
+.button {
+	width: min-content;
+	height: min-content;
+	padding: 16px 22px;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	white-space: nowrap;
+	background-color: #252525;
+	border-radius: 50px;
+}
+
+.button:hover {
+	background-color: #353535;
+	will-change: animation;
+	animation: swing 2s ease-in-out forwards;
+}
+
+.button:active {
+	border: 0;
+}
+
+@keyframes swing {
+	0% {
+		transform: rotate(0);
+	}
+
+	20% {
+		transform: rotate(1deg);
+	}
+
+	40% {
+		transform: rotate(-1deg);
+	}
+
+	60% {
+		transform: rotate(1deg);
+	}
+
+	80% {
+		transform: rotate(-1deg);
+	}
+
+	100% {
+		transform: rotate(0);
+	}
+}

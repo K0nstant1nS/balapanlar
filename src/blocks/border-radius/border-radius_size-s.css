@@ -1,0 +1,9 @@
+.border-radius_size-s {
+	border-radius: 50px;
+}
+
+@media screen and (max-width: 480px) {
+	.border-radius_size-s {
+		border-radius: 30px;
+	}
+}

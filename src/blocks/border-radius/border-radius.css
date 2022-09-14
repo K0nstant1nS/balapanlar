@@ -1,0 +1,15 @@
+.border-radius {
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 768px) {
+	.border-radius {
+		border-radius: 50px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.border-radius {
+		border-radius: 40px;
+	}
+}

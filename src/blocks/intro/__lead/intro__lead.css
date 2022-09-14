@@ -1,0 +1,40 @@
+.intro__lead {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	justify-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 75px 10px;
+	background-image: url('../../../vendor/images/intro.jpg');
+	background-position: 63% 73%;
+	background-size: 157%;
+	aspect-ratio: 1.69 / 1;
+}
+
+@media screen and (max-width: 992px) {
+	.intro__lead {
+		background-position: 59% 35%;
+		background-size: 220%;
+		aspect-ratio: 248 / 351;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.intro__lead {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.intro__lead {
+		background-position: 59% -30%;
+		background-size: 340%;
+		aspect-ratio: 2 / 5;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.intro__lead {
+		background-size: 310%;
+	}
+}
