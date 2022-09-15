@@ -1,0 +1,12 @@
+.horizontal-block_bg-type_competition {
+	background-image: url("../../../vendor/images/competition.png");
+	background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-block_bg-type_competition {
+		/*background-size: 150%;
+		background-position: -180px -30px;*/
+		background-position: center;
+	}
+}

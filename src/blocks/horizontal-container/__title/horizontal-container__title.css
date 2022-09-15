@@ -1,0 +1,26 @@
+.horizontal-container__title {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 68px;
+	letter-spacing: -1px;
+	max-width: 543px;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-container__title {
+		font-size: 48px;
+		line-height: 59px;
+		text-align: center;
+		padding: 0 0 70px;
+		max-width: 594px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.horizontal-container__title {
+		font-size: 36px;
+		line-height: 44px;
+	}
+}

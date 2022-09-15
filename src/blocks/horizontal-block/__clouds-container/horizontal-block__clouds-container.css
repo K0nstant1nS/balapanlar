@@ -1,0 +1,14 @@
+.horizontal-block__clouds-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 666px;
+	column-gap: 4px;
+	row-gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-block__clouds-container {
+		justify-content: center;
+	}
+}

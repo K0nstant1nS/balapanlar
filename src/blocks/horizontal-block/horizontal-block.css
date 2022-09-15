@@ -1,0 +1,26 @@
+.horizontal-block {
+	display: flex;
+	align-items: center;
+	width: 1000px;
+	max-height: 650px;
+	height: 100vh;
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-block {
+		height: auto;
+		width: auto;
+		max-width: 594px;
+		width: 100%;
+		min-height: 524px;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.horizontal-block {
+		min-height: 400px;
+		max-width: 300px;
+	}
+}

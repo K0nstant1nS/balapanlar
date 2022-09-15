@@ -1,0 +1,33 @@
+.horizontal-block__content {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding-left: 120px;
+}
+
+.horizontal-block:nth-of-type(1) .horizontal-block__content {
+	max-width: 666px;
+}
+
+.horizontal-block:nth-of-type(2) .horizontal-block__content {
+	max-width: 729px;
+}
+
+.horizontal-block:nth-of-type(3) .horizontal-block__content {
+	max-width: 729px;
+}
+
+.horizontal-block:nth-of-type(4) .horizontal-block__content {
+	max-width: 669px;
+}
+
+.horizontal-block:nth-of-type(1) .horizontal-block__content {
+	max-width: 794px;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-block__content {
+		padding: 0;
+		align-items: center;
+	}
+}

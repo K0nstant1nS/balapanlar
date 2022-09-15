@@ -1,0 +1,24 @@
+.horizontal-block__text {
+	margin: 0;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -0.5px;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-block__text {
+		text-align: center;
+		max-width: 437px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.horizontal-block__text {
+		font-size: 18px;
+		line-height: 22px;
+		max-width: 229px;
+	}
+}
