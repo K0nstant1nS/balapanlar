@@ -1,0 +1,13 @@
+.person{
+	display: flex;
+  flex-direction: column;
+  max-width: 393px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.person {
+		max-width: 290px;
+	}
+}

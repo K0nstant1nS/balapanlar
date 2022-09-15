@@ -1,0 +1,24 @@
+.person__photo{
+	width: 100%;
+  max-width: 100%;
+  height: 393px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+	border-radius: 60px;
+	cursor:default;
+}
+
+
+@media screen and (max-width: 768px) {
+	.person__photo {
+		height: 290px;
+		border-radius: 40px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.person__photo {
+		border-radius: 30px;
+	}
+}

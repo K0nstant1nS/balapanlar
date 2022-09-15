@@ -109,3 +109,10 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+/*команда*/
+@import url('../blocks/our-team/our-team.css');
+@import url('../blocks/persons/persons.css');
+@import url('../blocks/person/person.css');
+@import url('../blocks/person/__photo/person__photo.css');
+@import url('../blocks/person/__name/person__name.css');
+@import url('../blocks/person/__about/person__about.css');
