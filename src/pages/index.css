@@ -109,3 +109,11 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+@import url('../blocks/convenience-parents/convenience-parents.css');
+@import url('../blocks/convenience-parents/__title/convenience-parents__title.css');
+@import url('../blocks/convenience-parents/__list/convenience-parents__list.css');
+@import url('../blocks/convenience-parents/__item/convenience-parents__item.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_blue.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_green.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_orange.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_purple.css');

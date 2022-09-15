@@ -1,0 +1,12 @@
+.convenience-parents__item_card_blue {
+	grid-column-end: span 2;
+	font-size: 24px;
+	line-height: 29px;
+	background-color: #2548ff;
+}
+
+@media (max-width: 480px) {
+	.convenience-parents__item_card_blue {
+		grid-column: 1;
+	}
+}
