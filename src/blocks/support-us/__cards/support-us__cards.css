@@ -1,10 +1,10 @@
 .support-us__cards {
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-auto-rows: 1fr;
   gap: 10px 20px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 

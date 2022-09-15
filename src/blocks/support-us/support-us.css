@@ -1,10 +1,10 @@
 .support-us{
-  box-sizing: border-box;
-  padding: 120px;
   display: flex;
   flex-direction: column;
-  gap:40px;
-  background-color: #fff;
+  gap: 40px;
+  box-sizing: border-box;
+  padding: 120px;
+  background-color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
