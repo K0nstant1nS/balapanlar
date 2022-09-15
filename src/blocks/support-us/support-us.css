@@ -1,0 +1,20 @@
+.support-us{
+  box-sizing: border-box;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	.support-us {
+    padding: 80px 75px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.support-us {
+    padding: 30px 15px;
+  }
+}

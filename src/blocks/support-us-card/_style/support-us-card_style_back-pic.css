@@ -1,0 +1,6 @@
+.support-us-card_style_back-pic{
+  background-image: url('../../../vendor/images/support_us_card_back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
