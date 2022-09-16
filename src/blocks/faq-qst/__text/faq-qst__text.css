@@ -1,0 +1,19 @@
+.faq-qst__text {
+	margin: 0;
+	padding: 0 0 30px;
+	color: rgba(37, 37, 37, 1);
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 480px) {
+	.faq-qst__text {
+		padding: 0 0 15px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

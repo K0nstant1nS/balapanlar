@@ -109,3 +109,14 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+@import url('../blocks/faq/faq.css');
+@import url('../blocks/faq/__title/faq__title.css');
+@import url('../blocks/faq/__questions/faq__questions.css');
+@import url('../blocks/faq-qst/faq-qst.css');
+@import url('../blocks/faq-qst/__question/faq-qst__question.css');
+@import url('../blocks/faq-qst/_color/faq-qst_color_gray.css');
+@import url('../blocks/faq-qst/__icon/faq-qst__icon.css');
+@import url('../blocks/faq-qst/__title/faq-qst__title.css');
+@import url('../blocks/faq-qst/__answer/faq-qst__answer.css');
+@import url('../blocks/faq-qst/__text/faq-qst__text.css');
+@import url('../blocks/faq-qst/__answer/_opened/faq-qst__answer_opened.css');

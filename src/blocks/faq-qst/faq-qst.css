@@ -1,0 +1,11 @@
+.faq-qst {
+	width: 100%;
+	background-color: rgba(238, 232, 255, 1);
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 480px) {
+	.faq-qst {
+		border-radius: 30px;
+	}
+}

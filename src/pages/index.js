@@ -76,3 +76,17 @@ window.addEventListener("resize", principlesHeadingTween.toggleTween);
 document
 	.querySelectorAll("[data-attribute-anchor]")
 	.forEach((link) => scrollToAnchor(link));
+// FAQ
+const faqQuestion = document.querySelectorAll('.faq-qst__question');
+faqQuestion.forEach((element) => {element.addEventListener('click', () => {changeDisplay(element);});});
+function changeDisplay (element) {
+	const answer = element.parentNode.querySelector('.faq-qst__answer');
+	const icon = element.querySelector('.faq-qst__icon');
+	if (!answer.classList.contains('faq-qst__answer_opened')) {
+		answer.classList.add('faq-qst__answer_opened');
+		icon.textContent = '-';
+	} else {
+		answer.classList.remove('faq-qst__answer_opened');
+		icon.textContent = '+';
+	}
+};
