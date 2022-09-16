@@ -5,18 +5,6 @@
 	align-items: center;
 	gap: 10px;
 	margin: 0;
-	padding: 0 120px 120px;
+	padding: 0;
 	list-style: none;
-}
-
-@media screen and (max-width: 768px) {
-	.faq__questions {
-		padding: 0 75px 80px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.faq__questions {
-		padding: 0 15px 52px;
-	}
 }
