@@ -109,3 +109,9 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+@import url('../blocks/how-to-find/how-to-find.css');
+@import url('../blocks/how-to-find/__title/how-to-find__title.css');
+@import url('../blocks/how-to-find/__place/how-to-find__place.css');
+@import url('../blocks/how-to-find/__img-container/how-to-find__img-container.css');
+@import url('../blocks/how-to-find/__container/how-to-find__container.css');
+@import url('../blocks/how-to-find/__adds/how-to-find__adds.css');
