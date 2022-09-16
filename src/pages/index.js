@@ -78,15 +78,21 @@ document
 	.forEach((link) => scrollToAnchor(link));
 // FAQ
 const faqQuestion = document.querySelectorAll('.faq-qst__question');
-faqQuestion.forEach((element) => {element.addEventListener('click', () => {changeDisplay(element);});});
+let previousQuestion;
+faqQuestion.forEach((element) => {element.addEventListener('click', () => { previousQuestion = changeDisplay(element);});});
 function changeDisplay (element) {
 	const answer = element.parentNode.querySelector('.faq-qst__answer');
 	const icon = element.querySelector('.faq-qst__icon');
 	if (!answer.classList.contains('faq-qst__answer_opened')) {
 		answer.classList.add('faq-qst__answer_opened');
 		icon.textContent = '-';
+		if (previousQuestion && previousQuestion != element) {
+			previousQuestion.parentNode.querySelector('.faq-qst__answer').classList.remove('faq-qst__answer_opened');
+			previousQuestion.querySelector('.faq-qst__icon').textContent = '+';
+		}
 	} else {
 		answer.classList.remove('faq-qst__answer_opened');
 		icon.textContent = '+';
 	}
+	return element;
 };
