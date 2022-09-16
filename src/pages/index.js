@@ -79,8 +79,8 @@ document
 // FAQ
 const faqQuestion = document.querySelectorAll('.faq-qst__question');
 let previousQuestion;
-faqQuestion.forEach((element) => {element.addEventListener('click', () => { previousQuestion = changeDisplay(element);});});
-function changeDisplay (element) {
+faqQuestion.forEach((element) => {element.addEventListener('click', () => { previousQuestion = toggleFaqQuestion(element);});});
+function toggleFaqQuestion (element) {
 	const answer = element.parentNode.querySelector('.faq-qst__answer');
 	const icon = element.querySelector('.faq-qst__icon');
 	if (!answer.classList.contains('faq-qst__answer_opened')) {
