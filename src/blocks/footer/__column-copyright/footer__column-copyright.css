@@ -1,0 +1,20 @@
+.footer__column-copyright {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.footer__column-copyright {
+		align-items: center;
+		max-width: 441px;
+		margin: 80px auto 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer__column-copyright {
+		max-width: 290px;
+		margin-top: 57px;
+	}
+}

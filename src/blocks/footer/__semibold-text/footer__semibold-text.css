@@ -1,0 +1,11 @@
+.footer__semibold-text {
+	margin: 0 0 15px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.22;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.footer__semibold-text:nth-of-type(2n) {
+	margin: 0;
+}

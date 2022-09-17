@@ -1,0 +1,12 @@
+.footer__columns{
+	display: grid;
+	justify-content: space-around;
+	align-items: end;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.footer__columns {
+		display: block;
+	}
+}

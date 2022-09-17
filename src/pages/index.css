@@ -109,3 +109,12 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__columns/footer__columns.css');
+@import url('../blocks/button/_for/button_for_support-the-project.css');
+@import url('../blocks/footer/__column-copyright/footer__column-copyright.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__semibold-text/footer__semibold-text.css');
+@import url('../blocks/footer/__medium-text/footer__medium-text.css');
+@import url('../blocks/footer/__column-support/footer__column-support.css');
+@import url('../blocks/footer/__column-information/footer__column-information.css');
