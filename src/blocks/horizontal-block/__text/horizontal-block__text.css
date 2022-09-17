@@ -15,7 +15,7 @@
 	}
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 480px) {
 	.horizontal-block__text {
 		font-size: 18px;
 		line-height: 22px;

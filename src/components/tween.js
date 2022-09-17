@@ -7,6 +7,11 @@ class Tween {
 	constructor(tweenData) {
 		this.data = tweenData;
 		this.tween = gsap.to(tweenData.selector, {
+			onStart: function(){
+
+			},
+			onComplete: function(){
+			},
 			xPercent: tweenData.horizontalShift,
 			ease: "none",
 			scrollTrigger: {
@@ -16,11 +21,10 @@ class Tween {
 				scrub: 1,
 				snap: 0,
 				end: tweenData.end,
-				pinType: "transform"
+				pinType: "transform",
 			},
 		});
 	}
-
 
 
 

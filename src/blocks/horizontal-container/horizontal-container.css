@@ -4,7 +4,7 @@
 	gap: 40px;
 	flex-wrap: nowrap;
 	width: 405.9%;
-	height: 100vh;
+	min-height: calc(100vh - 80px);
 	overflow: hidden;
 	background-color: #F5F5F5;
 	justify-items: flex-start;
@@ -15,15 +15,15 @@
 @media screen and (max-width: 768px) {
 	.horizontal-container {
 		flex-direction: column;
-		height: auto;
 		box-sizing: border-box;
+		height: auto;
 		width: 100%;
 		padding: 80px 75px;
 		gap: 10px;
 	}
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 480px) {
 	.horizontal-container {
 		width: 100%;
 		padding: 30px 10px 45px;
