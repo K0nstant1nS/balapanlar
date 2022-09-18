@@ -21,7 +21,7 @@ class Tween {
 				scrub: 1,
 				snap: 0,
 				end: tweenData.end,
-				pinType: "transform",
+				pinType: "transform"
 			},
 		});
 	}

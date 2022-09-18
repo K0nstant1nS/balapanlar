@@ -3,11 +3,11 @@
 	flex-direction: row;
 	gap: 40px;
 	flex-wrap: nowrap;
-	width: 5845px;
+	width: 5725px;
 	/*405.9%;*/
 	min-height: calc(100vh - 80px);
 	overflow: hidden;
-	background-color: #F5F5F5;
+	background-color: #FFFFFF;
 	justify-items: flex-start;
 	padding-left: 120px;
 	align-items: center;
