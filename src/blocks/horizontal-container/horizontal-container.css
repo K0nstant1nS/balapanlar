@@ -3,7 +3,8 @@
 	flex-direction: row;
 	gap: 40px;
 	flex-wrap: nowrap;
-	width: 405.9%;
+	width: 5845px;
+	/*405.9%;*/
 	min-height: calc(100vh - 80px);
 	overflow: hidden;
 	background-color: #F5F5F5;
