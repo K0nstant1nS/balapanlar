@@ -71,9 +71,9 @@ const principlesHeadingTweenData = {
 
 //Старт моего кода
 const horizontalContainerTweenData = {
-	selector: ".horizontal-container",
+	selector: ".horizontal-container__content",
 	horizontalShift: -(1 - (window.innerWidth - 200)/5725)*100 , //-75.53,
-	triggerSelector: ".horizontal-container",
+	triggerSelector: ".horizontal-container__content",
 	pinState: true,
 	tabletWidth: 769,
 	start: /*document.querySelector(".principles").getBoundingClientRect().height*/ document.querySelector(".principles").offsetHeight + 50 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
