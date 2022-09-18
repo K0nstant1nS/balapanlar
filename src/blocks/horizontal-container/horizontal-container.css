@@ -6,7 +6,9 @@
 
 @media screen and (max-width: 768px) {
 	.horizontal-container {
+		box-sizing: border-box;
 		padding: 80px 75px;
+		overflow: visible;
 	}
 }
 

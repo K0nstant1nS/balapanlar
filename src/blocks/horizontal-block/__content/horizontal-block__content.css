@@ -21,7 +21,7 @@
 	max-width: 669px;
 }
 
-.horizontal-block:nth-of-type(1) .horizontal-block__content {
+.horizontal-block:nth-of-type(5) .horizontal-block__content {
 	max-width: 794px;
 }
 

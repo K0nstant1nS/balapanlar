@@ -16,11 +16,12 @@
 
 @media screen and (max-width: 768px) {
 	.horizontal-container__content {
+		overflow: visible;
+		padding: 0;
 		flex-direction: column;
 		box-sizing: border-box;
 		height: auto;
 		width: 100%;
-		padding: 80px 75px;
 		gap: 10px;
 	}
 }
@@ -28,6 +29,5 @@
 @media screen and (max-width: 480px) {
 	.horizontal-container__content {
 		width: 100%;
-		padding: 30px 10px 45px;
 	}
 }
