@@ -55,7 +55,7 @@ const principlesTweenData = {
 	triggerSelector: ".principles",
 	pinState: true,
 	tabletWidth: 769,
-	start: "top top",
+	start: "80px top",
 	end: "bottom"
 };
 
@@ -65,7 +65,7 @@ const principlesHeadingTweenData = {
 	triggerSelector: ".principles",
 	pinState: false,
 	tabletWidth: 769,
-	start: "top top",
+	start: "80px top",
 	end: "bottom"
 };
 
@@ -76,11 +76,9 @@ const horizontalContainerTweenData = {
 	triggerSelector: ".horizontal-container__content",
 	pinState: true,
 	tabletWidth: 769,
-	start: /*document.querySelector(".principles").getBoundingClientRect().height*/ document.querySelector(".principles").offsetHeight + 35 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
-	end: "2972.5px top" //document.querySelector(".principles").offsetHeight + document.querySelector(".horizontal-container").offsetHeight + " top"
+	start: document.querySelector(".principles").clientHeight + 35 - 80 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
+	end: "2972.5px top"
 };
-
-console.log(window.innerWidth)
 
 
 
