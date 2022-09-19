@@ -115,3 +115,6 @@
 @import url('../blocks/how-to-find/__img-container/how-to-find__img-container.css');
 @import url('../blocks/how-to-find/__container/how-to-find__container.css');
 @import url('../blocks/how-to-find/__adds/how-to-find__adds.css');
+@import url('../blocks/how-to-find/__place-container/how-to-find__place-container.css');
+@import url('../blocks/how-to-find/__place-title/how-to-find__place-title.css');
+@import url('../blocks/how-to-find/__place-photo/how-to-find__place-photo.css');
