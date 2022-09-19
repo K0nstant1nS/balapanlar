@@ -1,12 +1,9 @@
-.horizontal-container__content {}
-
 .horizontal-container__content {
 	display: flex;
 	flex-direction: row;
 	gap: 40px;
 	flex-wrap: nowrap;
 	width: 5725px;
-	/*405.9%;*/
 	min-height: calc(100vh - 80px);
 	overflow: hidden;
 	justify-items: flex-start;
@@ -20,7 +17,6 @@
 		padding: 0;
 		flex-direction: column;
 		box-sizing: border-box;
-		height: auto;
 		width: 100%;
 		gap: 10px;
 	}

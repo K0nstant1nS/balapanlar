@@ -31,3 +31,11 @@
 		align-items: center;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.horizontal-block__content {
+		gap: 15px;
+		padding: 0;
+		align-items: center;
+	}
+}

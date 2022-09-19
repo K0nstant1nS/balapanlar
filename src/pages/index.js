@@ -65,8 +65,7 @@ const principlesHeadingTweenData = {
 	triggerSelector: ".principles",
 	pinState: false,
 	tabletWidth: 769,
-	start: "top top",
-	end: "bottom"
+	start: "top top"
 };
 
 //Старт моего кода
