@@ -65,13 +65,14 @@ const principlesHeadingTweenData = {
 	triggerSelector: ".principles",
 	pinState: false,
 	tabletWidth: 769,
-	start: "top top"
+	start: "top top",
+	end: "bottom"
 };
 
 //Старт моего кода
 const horizontalContainerTweenData = {
 	selector: ".horizontal-container__content",
-	horizontalShift: -(1 - (document.querySelector(".horizontal-container").offsetWidth/5885))*100 , //-75.53,
+	horizontalShift: -(1 - (document.querySelector(".horizontal-container").clientWidth/5885))*100 , //-75.53,
 	triggerSelector: ".horizontal-container__content",
 	pinState: true,
 	tabletWidth: 769,
