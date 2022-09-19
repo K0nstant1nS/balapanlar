@@ -114,6 +114,9 @@
 @import url('../blocks/convenience-parents/__list/convenience-parents__list.css');
 @import url('../blocks/convenience-parents/__item/convenience-parents__item.css');
 @import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_blue.css');
-@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_green.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_photo-first.css');
 @import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_orange.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_photo-second.css');
 @import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_purple.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_green.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_photo-third.css');

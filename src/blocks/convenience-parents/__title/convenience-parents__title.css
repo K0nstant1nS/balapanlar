@@ -1,6 +1,6 @@
 .convenience-parents__title {
 	margin: 0;
-	padding: 260px 0 120px;
+	padding: 260px 120px 120px;
 	color: #252525;
 	font-weight: 600;
 	font-size: 60px;
@@ -8,13 +8,16 @@
 	letter-spacing: -1px;
 	text-align: center;
 	font-feature-settings: 'pnum' on, 'lnum' on;
-	background-color: #f0f4ff;
-	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	background-color: #eaf0ff;
+	border-radius: 50% 50% 0 0;
+
+	/* aspect-ratio: 320 / 320;
+	box-sizing: border-box; */
 }
 
 @media (max-width: 768px) {
 	.convenience-parents__title {
-		padding-top: 40px;
+		padding: 160px 75px 80px;
 		font-size: 48px;
 		line-height: 59px;
 	}
@@ -22,7 +25,7 @@
 
 @media (max-width: 480px) {
 	.convenience-parents__title {
-		padding-top: 30px;
+		padding: 100px 10px 50px;
 		font-size: 36px;
 		line-height: 44px;
 	}

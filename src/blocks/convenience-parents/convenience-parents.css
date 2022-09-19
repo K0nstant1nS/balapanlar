@@ -1,4 +1,16 @@
 .convenience-parents {
-	padding-top: 133px;
+	padding-top: 120px;
 	background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+	.convenience-parents {
+		padding-top: 40px;
+	}
+}
+
+@media (max-width: 480px) {
+	.convenience-parents {
+		padding-top: 30px;
+	}
 }
