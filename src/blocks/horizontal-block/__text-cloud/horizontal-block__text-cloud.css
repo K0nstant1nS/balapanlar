@@ -1,15 +1,15 @@
 .horizontal-block__text-cloud {
 	box-sizing: border-box;
 	padding: 10px 12px;
-	text-align: center;
-	background-color: #FFFFFF;
-	border-radius: 50px;
+	color: #252525;
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 29px;
 	letter-spacing: -0.5px;
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 50px;
 	font-feature-settings: 'pnum' on, 'lnum' on;
-	color: #252525;
 }
 
 @media screen and (max-width: 480px) {

@@ -1,24 +1,24 @@
 .horizontal-container__content {
 	display: flex;
 	flex-direction: row;
-	gap: 40px;
 	flex-wrap: nowrap;
+	justify-items: flex-start;
+	align-items: center;
+	gap: 40px;
 	width: 5725px;
 	min-height: calc(100vh - 80px);
-	overflow: hidden;
-	justify-items: flex-start;
 	padding-left: 120px;
-	align-items: center;
+	overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
 	.horizontal-container__content {
-		overflow: visible;
-		padding: 0;
 		flex-direction: column;
+		gap: 10px;
 		box-sizing: border-box;
 		width: 100%;
-		gap: 10px;
+		padding: 0;
+		overflow: visible;
 	}
 }
 

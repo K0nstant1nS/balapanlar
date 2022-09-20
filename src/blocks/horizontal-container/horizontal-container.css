@@ -1,7 +1,7 @@
 .horizontal-container {
 	width: 100%;
-	background-color: #FFFFFF;
 	overflow: hidden;
+	background-color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
