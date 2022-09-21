@@ -1,3 +1,15 @@
+@keyframes open {
+	from {
+		height: 0;
+		opacity: 0;
+	}
+
+	to {
+		height: auto;
+		opacity: 1;
+	}
+}
+
 .faq-qst__answer_opened {
-	display: block;
+	animation: open 0.3s 0.3s linear both;
 }

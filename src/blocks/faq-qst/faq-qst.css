@@ -1,5 +1,6 @@
 .faq-qst {
 	width: 100%;
+	overflow: hidden;
 	background-color: rgba(238, 232, 255, 1);
 	border-radius: 60px;
 }

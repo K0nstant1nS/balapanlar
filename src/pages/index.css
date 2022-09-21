@@ -115,7 +115,9 @@
 @import url('../blocks/faq-qst/faq-qst.css');
 @import url('../blocks/faq-qst/__question/faq-qst__question.css');
 @import url('../blocks/faq-qst/_color/faq-qst_color_gray.css');
-@import url('../blocks/faq-qst/__icon/faq-qst__icon.css');
+@import url('../blocks/faq-qst/__button-area/faq-qst__button-area.css');
+@import url('../blocks/faq-qst/__button/faq-qst__button.css');
+@import url('../blocks/faq-qst/__button/_opened/faq-qst__button_opened.css');
 @import url('../blocks/faq-qst/__title/faq-qst__title.css');
 @import url('../blocks/faq-qst/__answer/faq-qst__answer.css');
 @import url('../blocks/faq-qst/__text/faq-qst__text.css');
