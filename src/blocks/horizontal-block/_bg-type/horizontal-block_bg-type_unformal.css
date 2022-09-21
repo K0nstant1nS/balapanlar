@@ -1,0 +1,10 @@
+.horizontal-block_bg-type_unformal {
+	background-image: url('../../../vendor/images/unformal.png');
+	background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-block_bg-type_unformal {
+		background-position: center;
+	}
+}

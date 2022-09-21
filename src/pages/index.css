@@ -109,6 +109,35 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+/*horizontal-skroll*/
+@import url('../blocks/horizontal-container/horizontal-container.css');
+@import url('../blocks/horizontal-container/__title/horizontal-container__title.css');
+@import url('../blocks/horizontal-container/__content/horizontal-container__content.css');
+@import url('../blocks/horizontal-block/horizontal-block.css');
+@import url('../blocks/horizontal-block/__content/horizontal-block__content.css');
+@import url('../blocks/horizontal-block/__text-cloud/horizontal-block__text-cloud.css');
+@import url('../blocks/horizontal-block/__text/horizontal-block__text.css');
+@import url('../blocks/horizontal-block/__title/horizontal-block__title.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_blue.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_competiton.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_unformal.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_orange.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_yellow.css');
+@import url('../blocks/horizontal-block/__clouds-container/horizontal-block__clouds-container.css');
+/*support-us*/
+@import url('../blocks/support-us/support-us.css');
+@import url('../blocks/support-us/__cards/support-us__cards.css');
+@import url('../blocks/support-us/__subtitle/support-us__subtitle.css');
+@import url('../blocks/support-us-card/support-us-card.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-elis.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-lavender.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-pic.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-yellow.css');
+@import url('../blocks/support-us-card/__btn/support-us-card__btn.css');
+@import url('../blocks/support-us-card/__btn/_style/support-us-card__btn_style_orchid.css');
+@import url('../blocks/support-us-card/__text/support-us-card__text.css');
+@import url('../blocks/support-us-card/__paragraph/support-us-card__paragraph.css');
+/*faq*/
 @import url('../blocks/faq/faq.css');
 @import url('../blocks/faq/__title/faq__title.css');
 @import url('../blocks/faq/__questions/faq__questions.css');
