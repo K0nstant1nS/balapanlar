@@ -5,6 +5,7 @@ import { PopupWithBurger } from "../components/PopupWithBurger.js";
 import { checkScreenWidth } from "../components/headerState.js";
 import { Tween } from "../components/tween.js";
 import { scrollToAnchor } from "../utils.js/anchorLinkScroll.js";
+import { selector } from "gsap";
 
 const cards = document.querySelectorAll(".course-card");
 
@@ -53,7 +54,9 @@ const principlesTweenData = {
 	horizontalShift: -66.66666666,
 	triggerSelector: ".principles",
 	pinState: true,
-	tabletWidth: 768,
+	tabletWidth: 769,
+	start: "80px top",
+	end: "bottom"
 };
 
 const principlesHeadingTweenData = {
@@ -61,8 +64,32 @@ const principlesHeadingTweenData = {
 	horizontalShift: 66.66666666,
 	triggerSelector: ".principles",
 	pinState: false,
-	tabletWidth: 768,
+	tabletWidth: 769,
+	start: "80px top",
+	end: "bottom"
 };
+
+//Старт моего кода
+const horizontalContainerTweenData = {
+	selector: ".horizontal-container__content",
+	horizontalShift: -(1 - (document.querySelector(".horizontal-container").clientWidth/5885))*100 , //-75.53,
+	triggerSelector: ".horizontal-container__content",
+	pinState: true,
+	tabletWidth: 769,
+	start: document.querySelector(".principles").clientHeight + 35 - 80 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
+	end: "2972.5px top"
+};
+
+
+
+
+
+const horizontalContainerTween = new Tween(horizontalContainerTweenData);
+
+horizontalContainerTween.toggleTween();
+
+window.addEventListener("resize", horizontalContainerTween.toggleTween);
+//Конец моего кода
 
 const principlesTween = new Tween(principlesTweenData);
 const principlesHeadingTween = new Tween(principlesHeadingTweenData);
