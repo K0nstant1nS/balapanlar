@@ -1,0 +1,7 @@
+.faq-qst__button_opened {
+	transform: rotateZ(90deg);
+}
+
+.faq-qst__button_opened::before {
+	transform: rotateZ(90deg) translateX(2px) scale(0);
+}

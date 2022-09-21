@@ -103,3 +103,23 @@ window.addEventListener("resize", principlesHeadingTween.toggleTween);
 document
 	.querySelectorAll("[data-attribute-anchor]")
 	.forEach((link) => scrollToAnchor(link));
+// FAQ
+const faqQuestion = document.querySelectorAll('.faq-qst__button-area');
+let previousQuestion;
+faqQuestion.forEach((element) => {element.addEventListener('click', () => { previousQuestion = toggleFaqQuestion(element);});});
+function toggleFaqQuestion (element) {
+	const answer = element.parentNode.parentNode.querySelector('.faq-qst__answer');
+	const icon = element.querySelector('.faq-qst__button');
+	if (!answer.classList.contains('faq-qst__answer_opened')) {
+		answer.classList.add('faq-qst__answer_opened');
+		icon.classList.add('faq-qst__button_opened');
+		if (previousQuestion && previousQuestion != element) {
+			previousQuestion.parentNode.parentNode.querySelector('.faq-qst__answer').classList.remove('faq-qst__answer_opened');
+			previousQuestion.querySelector('.faq-qst__button').classList.remove('faq-qst__button_opened');
+		}
+	} else {
+		answer.classList.remove('faq-qst__answer_opened');
+		icon.classList.remove('faq-qst__button_opened');
+	}
+	return element;
+};
