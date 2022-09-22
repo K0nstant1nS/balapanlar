@@ -7,6 +7,7 @@ import { Tween } from "../components/tween.js";
 import { scrollToAnchor } from "../utils.js/anchorLinkScroll.js";
 import { PopupHowToFind } from "../components/PopupHowToFind";
 
+
 const cards = document.querySelectorAll(".course-card");
 
 cards.forEach((card) => {
@@ -62,7 +63,9 @@ const principlesTweenData = {
 	horizontalShift: -66.66666666,
 	triggerSelector: ".principles",
 	pinState: true,
-	tabletWidth: 768,
+	tabletWidth: 769,
+	start: "80px top",
+	end: "bottom"
 };
 
 const principlesHeadingTweenData = {
@@ -70,8 +73,32 @@ const principlesHeadingTweenData = {
 	horizontalShift: 66.66666666,
 	triggerSelector: ".principles",
 	pinState: false,
-	tabletWidth: 768,
+	tabletWidth: 769,
+	start: "80px top",
+	end: "bottom"
 };
+
+//Старт моего кода
+const horizontalContainerTweenData = {
+	selector: ".horizontal-container__content",
+	horizontalShift: -(1 - (document.querySelector(".horizontal-container").clientWidth/5885))*100 , //-75.53,
+	triggerSelector: ".horizontal-container__content",
+	pinState: true,
+	tabletWidth: 769,
+	start: document.querySelector(".principles").clientHeight + 35 - 80 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
+	end: "2972.5px top"
+};
+
+
+
+
+
+const horizontalContainerTween = new Tween(horizontalContainerTweenData);
+
+horizontalContainerTween.toggleTween();
+
+window.addEventListener("resize", horizontalContainerTween.toggleTween);
+//Конец моего кода
 
 const principlesTween = new Tween(principlesTweenData);
 const principlesHeadingTween = new Tween(principlesHeadingTweenData);
@@ -85,3 +112,23 @@ window.addEventListener("resize", principlesHeadingTween.toggleTween);
 document
 	.querySelectorAll("[data-attribute-anchor]")
 	.forEach((link) => scrollToAnchor(link));
+// FAQ
+const faqQuestion = document.querySelectorAll('.faq-qst__button-area');
+let previousQuestion;
+faqQuestion.forEach((element) => {element.addEventListener('click', () => { previousQuestion = toggleFaqQuestion(element);});});
+function toggleFaqQuestion (element) {
+	const answer = element.parentNode.parentNode.querySelector('.faq-qst__answer');
+	const icon = element.querySelector('.faq-qst__button');
+	if (!answer.classList.contains('faq-qst__answer_opened')) {
+		answer.classList.add('faq-qst__answer_opened');
+		icon.classList.add('faq-qst__button_opened');
+		if (previousQuestion && previousQuestion != element) {
+			previousQuestion.parentNode.parentNode.querySelector('.faq-qst__answer').classList.remove('faq-qst__answer_opened');
+			previousQuestion.querySelector('.faq-qst__button').classList.remove('faq-qst__button_opened');
+		}
+	} else {
+		answer.classList.remove('faq-qst__answer_opened');
+		icon.classList.remove('faq-qst__button_opened');
+	}
+	return element;
+};

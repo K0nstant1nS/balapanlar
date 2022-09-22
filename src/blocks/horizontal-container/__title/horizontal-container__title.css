@@ -1,22 +1,25 @@
-.section-title {
+.horizontal-container__title {
+	max-width: 543px;
 	margin: 0;
 	padding: 0;
 	font-weight: 600;
 	font-size: 60px;
 	line-height: 68px;
 	letter-spacing: -1px;
-	cursor: default;
 }
 
 @media screen and (max-width: 768px) {
-	.section-title {
+	.horizontal-container__title {
+		max-width: 594px;
+		padding: 0 0 70px;
 		font-size: 48px;
 		line-height: 59px;
+		text-align: center;
 	}
 }
 
 @media screen and (max-width: 480px) {
-	.section-title {
+	.horizontal-container__title {
 		font-size: 36px;
 		line-height: 44px;
 	}
