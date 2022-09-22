@@ -109,7 +109,9 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
-/*horizontal-skroll*/
+
+/* horizontal-skroll */
+
 @import url('../blocks/horizontal-container/horizontal-container.css');
 @import url('../blocks/horizontal-container/__title/horizontal-container__title.css');
 @import url('../blocks/horizontal-container/__content/horizontal-container__content.css');
@@ -124,14 +126,18 @@
 @import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_orange.css');
 @import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_yellow.css');
 @import url('../blocks/horizontal-block/__clouds-container/horizontal-block__clouds-container.css');
-/*our-team*/
+
+/* our-team */
+
 @import url('../blocks/our-team/our-team.css');
 @import url('../blocks/persons/persons.css');
 @import url('../blocks/person/person.css');
 @import url('../blocks/person/__photo/person__photo.css');
 @import url('../blocks/person/__name/person__name.css');
 @import url('../blocks/person/__about/person__about.css');
-/*how-to-find*/
+
+/* how-to-find */
+
 @import url('../blocks/how-to-find/how-to-find.css');
 @import url('../blocks/how-to-find/__title/how-to-find__title.css');
 @import url('../blocks/how-to-find/__place/how-to-find__place.css');
@@ -147,7 +153,9 @@
 @import url('../blocks/popup/__content/_type/popup__content_type_how-to-find.css');
 @import url('../blocks/popup/__close-button-white/popup__close-button-white.css');
 @import url('../blocks/popup/__container-how-to-find/popup__container-how-to-find.css');
-/*support-us*/
+
+/* support-us */
+
 @import url('../blocks/support-us/support-us.css');
 @import url('../blocks/support-us/__cards/support-us__cards.css');
 @import url('../blocks/support-us/__subtitle/support-us__subtitle.css');
@@ -160,7 +168,9 @@
 @import url('../blocks/support-us-card/__btn/_style/support-us-card__btn_style_orchid.css');
 @import url('../blocks/support-us-card/__text/support-us-card__text.css');
 @import url('../blocks/support-us-card/__paragraph/support-us-card__paragraph.css');
-/*faq*/
+
+/* faq */
+
 @import url('../blocks/faq/faq.css');
 @import url('../blocks/faq/__title/faq__title.css');
 @import url('../blocks/faq/__questions/faq__questions.css');
@@ -174,7 +184,9 @@
 @import url('../blocks/faq-qst/__answer/faq-qst__answer.css');
 @import url('../blocks/faq-qst/__text/faq-qst__text.css');
 @import url('../blocks/faq-qst/__answer/_opened/faq-qst__answer_opened.css');
-/*footer*/
+
+/* footer */
+
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__columns/footer__columns.css');
 @import url('../blocks/button/_for/button_for_support-the-project.css');
