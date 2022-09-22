@@ -6,7 +6,7 @@
 	align-items: center;
 	gap: 40px;
 	width: 5725px;
-	min-height: calc(100vh - 80px);
+	min-height: calc(100vh + 80px);
 	padding-left: 120px;
 	overflow: hidden;
 }

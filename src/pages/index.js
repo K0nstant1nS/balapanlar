@@ -85,7 +85,7 @@ const horizontalContainerTweenData = {
 	triggerSelector: ".horizontal-container__content",
 	pinState: true,
 	tabletWidth: 769,
-	start: document.querySelector(".principles").clientHeight + 35 - 80 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
+	start: document.querySelector(".principles").clientHeight - 80 - 35 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
 	end: "2972.5px top"
 };
 
