@@ -1,0 +1,29 @@
+.faq-qst__question {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 21px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: rgba(37, 37, 37, 1);
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	word-wrap: break-word;
+	background-color: transparent;
+	border: none;
+}
+
+@media screen and (max-width: 480px) {
+	.faq-qst__question {
+		gap: 0;
+		padding: 0 15px 0 0;
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

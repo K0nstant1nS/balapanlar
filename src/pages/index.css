@@ -109,6 +109,72 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+/*horizontal-skroll*/
+@import url('../blocks/horizontal-container/horizontal-container.css');
+@import url('../blocks/horizontal-container/__title/horizontal-container__title.css');
+@import url('../blocks/horizontal-container/__content/horizontal-container__content.css');
+@import url('../blocks/horizontal-block/horizontal-block.css');
+@import url('../blocks/horizontal-block/__content/horizontal-block__content.css');
+@import url('../blocks/horizontal-block/__text-cloud/horizontal-block__text-cloud.css');
+@import url('../blocks/horizontal-block/__text/horizontal-block__text.css');
+@import url('../blocks/horizontal-block/__title/horizontal-block__title.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_blue.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_competiton.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_unformal.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_orange.css');
+@import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_yellow.css');
+@import url('../blocks/horizontal-block/__clouds-container/horizontal-block__clouds-container.css');
+/*our-team*/
+@import url('../blocks/our-team/our-team.css');
+@import url('../blocks/persons/persons.css');
+@import url('../blocks/person/person.css');
+@import url('../blocks/person/__photo/person__photo.css');
+@import url('../blocks/person/__name/person__name.css');
+@import url('../blocks/person/__about/person__about.css');
+/*how-to-find*/
+@import url('../blocks/how-to-find/how-to-find.css');
+@import url('../blocks/how-to-find/__title/how-to-find__title.css');
+@import url('../blocks/how-to-find/__place/how-to-find__place.css');
+@import url('../blocks/how-to-find/__img-container/how-to-find__img-container.css');
+@import url('../blocks/how-to-find/__container/how-to-find__container.css');
+@import url('../blocks/how-to-find/__adds/how-to-find__adds.css');
+@import url('../blocks/how-to-find/__place-container/how-to-find__place-container.css');
+@import url('../blocks/how-to-find/__place-title/how-to-find__place-title.css');
+@import url('../blocks/how-to-find/__place-photo/how-to-find__place-photo.css');
+@import url('../blocks/button/_for/button_for_how-to-find.css');
+@import url('../blocks/popup/__content_fullscreen/popup__content-fullscreen.css');
+@import url('../blocks/popup/__fullscreen-image/popup__fullscreen-image.css');
+@import url('../blocks/popup/__content/_type/popup__content_type_how-to-find.css');
+@import url('../blocks/popup/__close-button-white/popup__close-button-white.css');
+@import url('../blocks/popup/__container-how-to-find/popup__container-how-to-find.css');
+/*support-us*/
+@import url('../blocks/support-us/support-us.css');
+@import url('../blocks/support-us/__cards/support-us__cards.css');
+@import url('../blocks/support-us/__subtitle/support-us__subtitle.css');
+@import url('../blocks/support-us-card/support-us-card.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-elis.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-lavender.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-pic.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_back-yellow.css');
+@import url('../blocks/support-us-card/__btn/support-us-card__btn.css');
+@import url('../blocks/support-us-card/__btn/_style/support-us-card__btn_style_orchid.css');
+@import url('../blocks/support-us-card/__text/support-us-card__text.css');
+@import url('../blocks/support-us-card/__paragraph/support-us-card__paragraph.css');
+/*faq*/
+@import url('../blocks/faq/faq.css');
+@import url('../blocks/faq/__title/faq__title.css');
+@import url('../blocks/faq/__questions/faq__questions.css');
+@import url('../blocks/faq-qst/faq-qst.css');
+@import url('../blocks/faq-qst/__question/faq-qst__question.css');
+@import url('../blocks/faq-qst/_color/faq-qst_color_gray.css');
+@import url('../blocks/faq-qst/__button-area/faq-qst__button-area.css');
+@import url('../blocks/faq-qst/__button/faq-qst__button.css');
+@import url('../blocks/faq-qst/__button/_opened/faq-qst__button_opened.css');
+@import url('../blocks/faq-qst/__title/faq-qst__title.css');
+@import url('../blocks/faq-qst/__answer/faq-qst__answer.css');
+@import url('../blocks/faq-qst/__text/faq-qst__text.css');
+@import url('../blocks/faq-qst/__answer/_opened/faq-qst__answer_opened.css');
+/*footer*/
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__columns/footer__columns.css');
 @import url('../blocks/button/_for/button_for_support-the-project.css');
