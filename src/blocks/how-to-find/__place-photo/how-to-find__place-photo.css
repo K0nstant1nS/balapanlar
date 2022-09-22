@@ -1,0 +1,16 @@
+.how-to-find__place-photo {
+	background-image: url('../../../vendor/images/how-to-find_place-photo_dekstop.png');
+}
+
+@media screen and (max-width: 768px) {
+	.how-to-find__place-photo {
+		border-radius: 60px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.how-to-find__place-photo {
+		background-image: url('../../../vendor/images/how-to-find__place-photo_mobile.png');
+		border-radius: 20px;
+	}
+}

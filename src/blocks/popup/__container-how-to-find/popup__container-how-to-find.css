@@ -1,0 +1,18 @@
+.popup__container-how-to-find {
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.popup__container-how-to-find {
+		max-width: 594px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.popup__container-how-to-find {
+		max-width: 290px;
+	}
+}

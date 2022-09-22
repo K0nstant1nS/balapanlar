@@ -1,0 +1,8 @@
+.popup__fullscreen-image {
+	display: block;
+	align-self: center;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	cursor: default;
+}

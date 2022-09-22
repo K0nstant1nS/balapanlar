@@ -109,6 +109,8 @@
 @import url('../blocks/principles/__pic/_triangle/principles__pic_triangle.css');
 @import url('../blocks/principles/__heading/principles__heading.css');
 @import url('../blocks/principles/__pic/_oval/principles__pic_oval.css');
+
+=======
 /*horizontal-skroll*/
 @import url('../blocks/horizontal-container/horizontal-container.css');
 @import url('../blocks/horizontal-container/__title/horizontal-container__title.css');
@@ -131,6 +133,22 @@
 @import url('../blocks/person/__photo/person__photo.css');
 @import url('../blocks/person/__name/person__name.css');
 @import url('../blocks/person/__about/person__about.css');
+/*how-to-find*/
+@import url('../blocks/how-to-find/how-to-find.css');
+@import url('../blocks/how-to-find/__title/how-to-find__title.css');
+@import url('../blocks/how-to-find/__place/how-to-find__place.css');
+@import url('../blocks/how-to-find/__img-container/how-to-find__img-container.css');
+@import url('../blocks/how-to-find/__container/how-to-find__container.css');
+@import url('../blocks/how-to-find/__adds/how-to-find__adds.css');
+@import url('../blocks/how-to-find/__place-container/how-to-find__place-container.css');
+@import url('../blocks/how-to-find/__place-title/how-to-find__place-title.css');
+@import url('../blocks/how-to-find/__place-photo/how-to-find__place-photo.css');
+@import url('../blocks/button/_for/button_for_how-to-find.css');
+@import url('../blocks/popup/__content_fullscreen/popup__content-fullscreen.css');
+@import url('../blocks/popup/__fullscreen-image/popup__fullscreen-image.css');
+@import url('../blocks/popup/__content/_type/popup__content_type_how-to-find.css');
+@import url('../blocks/popup/__close-button-white/popup__close-button-white.css');
+@import url('../blocks/popup/__container-how-to-find/popup__container-how-to-find.css');
 /*support-us*/
 @import url('../blocks/support-us/support-us.css');
 @import url('../blocks/support-us/__cards/support-us__cards.css');

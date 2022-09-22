@@ -5,7 +5,8 @@ import { PopupWithBurger } from "../components/PopupWithBurger.js";
 import { checkScreenWidth } from "../components/headerState.js";
 import { Tween } from "../components/tween.js";
 import { scrollToAnchor } from "../utils.js/anchorLinkScroll.js";
-import { selector } from "gsap";
+import { PopupHowToFind } from "../components/PopupHowToFind";
+
 
 const cards = document.querySelectorAll(".course-card");
 
@@ -49,6 +50,14 @@ partners.forEach((partner) => {
 	});
 });
 
+// Начала скрипта
+
+const howToFind = new PopupHowToFind(".popup_type_how-to-find")
+
+document.querySelector(".button_for_how-to-find").addEventListener("click",function(){
+	howToFind.open();
+})
+// Конец скрипта
 const principlesTweenData = {
 	selector: ".principles",
 	horizontalShift: -66.66666666,
