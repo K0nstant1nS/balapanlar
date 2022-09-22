@@ -1,5 +1,7 @@
 .popup__fullscreen-image {
 	display: block;
-	max-width: 900px;
-	max-height: 900px;
+	align-self: center;
+	max-width: 90%;
+	max-height: 88.24%;
+	cursor: default;
 }
