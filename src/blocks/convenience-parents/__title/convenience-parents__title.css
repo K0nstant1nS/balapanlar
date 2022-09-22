@@ -1,6 +1,7 @@
 .convenience-parents__title {
-	margin: 0;
-	padding: 260px 120px 120px;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 260px 0 120px;
 	color: #252525;
 	font-weight: 600;
 	font-size: 60px;
@@ -8,11 +9,6 @@
 	letter-spacing: -1px;
 	text-align: center;
 	font-feature-settings: 'pnum' on, 'lnum' on;
-	background-color: #eaf0ff;
-	border-radius: 50% 50% 0 0;
-
-	/* aspect-ratio: 320 / 320;
-	box-sizing: border-box; */
 }
 
 @media (max-width: 768px) {
