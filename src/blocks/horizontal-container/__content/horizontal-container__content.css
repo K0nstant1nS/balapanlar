@@ -1,0 +1,29 @@
+.horizontal-container__content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-items: flex-start;
+	align-items: center;
+	gap: 40px;
+	width: 5725px;
+	min-height: calc(100vh - 80px);
+	padding-left: 120px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-container__content {
+		flex-direction: column;
+		gap: 10px;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0;
+		overflow: visible;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.horizontal-container__content {
+		width: 100%;
+	}
+}
