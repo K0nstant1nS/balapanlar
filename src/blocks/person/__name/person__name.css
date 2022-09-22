@@ -1,11 +1,11 @@
 .person__name{
 	margin: 0;
 	padding: 20px 0 10px;
+	color: #252525;
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 44px;
 	letter-spacing: -1px;
-	color: #252525;
 	font-feature-settings: 'pnum' on, 'lnum' on;
 	cursor: default;
 }
@@ -27,5 +27,3 @@
 		letter-spacing: -0.5px;
 	}
 }
-
-

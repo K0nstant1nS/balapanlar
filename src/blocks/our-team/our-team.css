@@ -1,12 +1,13 @@
 .our-team{
-	padding: 120px;
 	box-sizing: border-box;
-	max-width: 1441px;
 	width: 100%;
+	max-width: 1440px;
 	max-height: 100%;
-	background-color: #fff;
+	margin: 0 auto;
+	padding: 120px;
+	background-color: #ffffff;
 	border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
+	border-top-right-radius: 60px;
 }
 
 
@@ -14,7 +15,6 @@
 	.our-team {
 		padding: 80px 75px;
 		border-top-left-radius: 50px;
-		border-top-right-radius: 50px;
 	}
 }
 
