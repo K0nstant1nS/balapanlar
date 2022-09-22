@@ -124,6 +124,13 @@
 @import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_orange.css');
 @import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_yellow.css');
 @import url('../blocks/horizontal-block/__clouds-container/horizontal-block__clouds-container.css');
+/*our-team*/
+@import url('../blocks/our-team/our-team.css');
+@import url('../blocks/persons/persons.css');
+@import url('../blocks/person/person.css');
+@import url('../blocks/person/__photo/person__photo.css');
+@import url('../blocks/person/__name/person__name.css');
+@import url('../blocks/person/__about/person__about.css');
 /*support-us*/
 @import url('../blocks/support-us/support-us.css');
 @import url('../blocks/support-us/__cards/support-us__cards.css');
