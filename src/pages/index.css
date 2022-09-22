@@ -122,3 +122,5 @@
 @import url('../blocks/popup/__content_fullscreen/popup__content-fullscreen.css');
 @import url('../blocks/popup/__fullscreen-image/popup__fullscreen-image.css');
 @import url('../blocks/popup/__content/_type/popup__content_type_how-to-find.css');
+@import url('../blocks/popup/__close-button-white/popup__close-button-white.css');
+@import url('../blocks/popup/__container-how-to-find/popup__container-how-to-find.css');
