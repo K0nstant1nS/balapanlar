@@ -174,3 +174,13 @@
 @import url('../blocks/faq-qst/__answer/faq-qst__answer.css');
 @import url('../blocks/faq-qst/__text/faq-qst__text.css');
 @import url('../blocks/faq-qst/__answer/_opened/faq-qst__answer_opened.css');
+/*footer*/
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__columns/footer__columns.css');
+@import url('../blocks/button/_for/button_for_support-the-project.css');
+@import url('../blocks/footer/__column-copyright/footer__column-copyright.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__semibold-text/footer__semibold-text.css');
+@import url('../blocks/footer/__medium-text/footer__medium-text.css');
+@import url('../blocks/footer/__column-support/footer__column-support.css');
+@import url('../blocks/footer/__column-information/footer__column-information.css');
