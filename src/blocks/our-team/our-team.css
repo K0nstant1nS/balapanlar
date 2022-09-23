@@ -1,9 +1,6 @@
 .our-team{
 	box-sizing: border-box;
-	width: 100%;
-	max-width: 1440px;
 	max-height: 100%;
-	margin: 0 auto;
 	padding: 120px;
 	background-color: #ffffff;
 	border-top-left-radius: 60px;
@@ -11,7 +8,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
 	.our-team {
 		padding: 80px 75px;
 		border-top-left-radius: 50px;

@@ -13,13 +13,13 @@
 	}
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 945px) {
 	.persons {
 		grid-template-columns: repeat(auto-fill, 291px);
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 	.persons {
 		grid-template-columns: repeat(auto-fill, 290px);
 		gap: 30px;

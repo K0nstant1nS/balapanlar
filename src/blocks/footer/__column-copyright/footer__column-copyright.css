@@ -1,6 +1,7 @@
 .footer__column-copyright {
 	display: flex;
 	flex-direction: column;
+	max-width: 441px;
 	margin: 0;
 }
 
@@ -9,6 +10,7 @@
 		align-items: center;
 		max-width: 441px;
 		margin: 80px auto 0;
+		text-align: center;
 	}
 }
 
@@ -16,5 +18,6 @@
 	.footer__column-copyright {
 		max-width: 290px;
 		margin-top: 57px;
+		text-align: start;
 	}
 }

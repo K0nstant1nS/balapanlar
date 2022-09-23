@@ -146,6 +146,7 @@
 /* our-team */
 
 @import url('../blocks/our-team/our-team.css');
+@import url('../blocks/our-team/__container/our-team__container.css');
 @import url('../blocks/persons/persons.css');
 @import url('../blocks/person/person.css');
 @import url('../blocks/person/__photo/person__photo.css');
@@ -173,6 +174,7 @@
 /* support-us */
 
 @import url('../blocks/support-us/support-us.css');
+@import url('../blocks/support-us/__container/support-us__container.css');
 @import url('../blocks/support-us/__cards/support-us__cards.css');
 @import url('../blocks/support-us/__subtitle/support-us__subtitle.css');
 @import url('../blocks/support-us-card/support-us-card.css');
