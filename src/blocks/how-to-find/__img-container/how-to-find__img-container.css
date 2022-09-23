@@ -1,12 +1,12 @@
 .how-to-find__img-container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 120px 120px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 120px 120px;
 }
 
 @media screen and (max-width: 768px) {
