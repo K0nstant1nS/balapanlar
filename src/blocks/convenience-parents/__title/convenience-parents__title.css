@@ -19,7 +19,7 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 604px) {
 	.convenience-parents__title {
 		padding: 100px 10px 50px;
 		font-size: 36px;

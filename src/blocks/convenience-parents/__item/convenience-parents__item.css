@@ -13,13 +13,13 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 	.convenience-parents__item {
 		aspect-ratio: 292 / 275;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 604px) {
 	.convenience-parents__item {
 		align-items: center;
 		padding: 24px;

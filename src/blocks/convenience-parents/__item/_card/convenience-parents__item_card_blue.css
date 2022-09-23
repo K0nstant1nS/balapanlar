@@ -6,7 +6,7 @@
 	aspect-ratio: unset;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 604px) {
 	.convenience-parents__item_card_blue {
 		grid-column: 1;
 	}
