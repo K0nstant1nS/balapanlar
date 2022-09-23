@@ -1,10 +1,9 @@
 .footer__columns{
 	display: grid;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: end;
-	max-width: 1440px;
+	max-width: 1200px;
 	margin: 0 auto;
-	column-gap: 24.41%;
 }
 
 @media screen and (max-width: 768px) {
