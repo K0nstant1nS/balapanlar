@@ -1,14 +1,21 @@
 .footer__columns{
 	display: grid;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: end;
+	box-sizing: border-box;
 	max-width: 1440px;
 	margin: 0 auto;
-	column-gap: 24.41%;
+	padding: 80px 120px;
 }
 
 @media screen and (max-width: 768px) {
 	.footer__columns {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer__columns {
+		padding: 20px 10px 80px;
 	}
 }

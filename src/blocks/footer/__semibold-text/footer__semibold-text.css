@@ -13,3 +13,15 @@
 .footer__semibold-text:nth-of-type(3n) {
 	letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 768px) {
+	.footer__semibold-text {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer__semibold-text {
+		text-align: start;
+	}
+}

@@ -6,7 +6,7 @@ import { checkScreenWidth } from "../components/headerState.js";
 import { Tween } from "../components/tween.js";
 import { scrollToAnchor } from "../utils.js/anchorLinkScroll.js";
 import { PopupHowToFind } from "../components/PopupHowToFind";
-
+import "../components/howToFindMap.js";
 
 const cards = document.querySelectorAll(".course-card");
 
