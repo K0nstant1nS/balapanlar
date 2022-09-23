@@ -1,0 +1,71 @@
+@keyframes click {
+	from {
+		transform: rotateZ(0);
+	}
+
+	to {
+		transform: rotateZ(90deg);
+	}
+}
+
+.faq-qst__button {
+	position: relative;
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	transition: transform 0.3s 0.3s linear;
+}
+
+.faq-qst__button::after {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	display: block;
+	width: 2px;
+	height: 12px;
+	margin: 0;
+	padding: 0;
+	content: '';
+	background-color: rgba(37, 37, 37, 1);
+	border: none;
+	border-radius: 20%;
+}
+
+.faq-qst__button::before {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	display: block;
+	width: 12px;
+	height: 2px;
+	margin: 0;
+	padding: 0;
+	content: '';
+	background-color: rgba(37, 37, 37, 1);
+	border: none;
+	border-radius: 20%;
+	transition: transform 0.3s 0.3s linear;
+}
+
+@media screen and (max-width: 480px) {
+	.faq-qst__button{
+		width: 10px;
+		height: 10px;
+	}
+
+	.faq-qst__button::after {
+		left: 4px;
+		width: 2px;
+		height: 10px;
+	}
+
+	.faq-qst__button::before {
+		top: 4px;
+		width: 10px;
+		height: 2px;
+	}
+}

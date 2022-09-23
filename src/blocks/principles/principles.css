@@ -3,7 +3,7 @@
 	flex-wrap: nowrap;
 	justify-items: flex-start;
 	width: 300%;
-	min-height: 100vh;
+	min-height: calc(100vh + 80px);
 	overflow: hidden;
 	color: #ffffff;
 	background-color: #ae46ff;

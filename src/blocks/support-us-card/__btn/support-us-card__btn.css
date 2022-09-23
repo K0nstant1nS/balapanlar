@@ -1,0 +1,16 @@
+.support-us-card__btn{
+	max-width: 100%;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	text-decoration: none;
+	border: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.support-us-card__btn{
+		font-size: 16px;
+		line-height: 1.25;
+	}
+}
