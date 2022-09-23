@@ -1,22 +1,23 @@
 .how-to-find__img-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 120px 120px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
-	margin: 60px 0 0;
 }
 
 @media screen and (max-width: 768px) {
 	.how-to-find__img-container {
 		flex-direction: column;
-		margin-top: 80px;
+		padding: 0 75px 80px;
 	}
 }
 
-
 @media screen and (max-width: 480px) {
 	.how-to-find__img-container {
-		margin-top: 30px;
+		padding: 0 10px 30px;
 	}
 }
