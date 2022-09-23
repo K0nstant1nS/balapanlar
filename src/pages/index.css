@@ -127,6 +127,22 @@
 @import url('../blocks/horizontal-block/_bg-type/horizontal-block_bg-type_yellow.css');
 @import url('../blocks/horizontal-block/__clouds-container/horizontal-block__clouds-container.css');
 
+/* convenience-parents */
+
+@import url('../blocks/convenience-parents/convenience-parents.css');
+@import url('../blocks/convenience-parents/__block/convenience-parents__block.css');
+@import url('../blocks/convenience-parents/__block/_round/convenience-parents__block_round.css');
+@import url('../blocks/convenience-parents/__title/convenience-parents__title.css');
+@import url('../blocks/convenience-parents/__list/convenience-parents__list.css');
+@import url('../blocks/convenience-parents/__item/convenience-parents__item.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_blue.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_photo-first.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_orange.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_photo-second.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_purple.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_green.css');
+@import url('../blocks/convenience-parents/__item/_card/convenience-parents__item_card_photo-third.css');
+
 /* our-team */
 
 @import url('../blocks/our-team/our-team.css');
