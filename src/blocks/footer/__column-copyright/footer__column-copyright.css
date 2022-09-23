@@ -1,6 +1,7 @@
 .footer__column-copyright {
 	display: flex;
 	flex-direction: column;
+	max-width: 441px;
 	margin: 0;
 }
 

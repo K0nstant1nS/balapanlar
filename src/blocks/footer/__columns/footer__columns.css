@@ -2,7 +2,9 @@
 	display: grid;
 	justify-content: space-around;
 	align-items: end;
+	max-width: 1440px;
 	margin: 0 auto;
+	column-gap: 24.41%;
 }
 
 @media screen and (max-width: 768px) {

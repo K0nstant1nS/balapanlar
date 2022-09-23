@@ -130,6 +130,7 @@
 /* our-team */
 
 @import url('../blocks/our-team/our-team.css');
+@import url('../blocks/our-team/__container/our-team__container.css');
 @import url('../blocks/persons/persons.css');
 @import url('../blocks/person/person.css');
 @import url('../blocks/person/__photo/person__photo.css');
