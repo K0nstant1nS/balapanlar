@@ -15,7 +15,7 @@
 	}
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 945px) {
 	.person__photo {
 		height: 291px;
 		border-radius: 40px;
@@ -23,7 +23,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 	.person__photo {
 		height: 290px;
 		border-radius: 30px;
