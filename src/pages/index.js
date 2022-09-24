@@ -59,55 +59,69 @@ document.querySelector(".button_for_how-to-find").addEventListener("click",funct
 })
 // Конец скрипта
 const principlesTweenData = {
-	selector: ".principles",
-	horizontalShift: -66.66666666,
+	selector: ".principles__card",
+	horizontalShift: false,
 	triggerSelector: ".principles",
 	pinState: true,
 	tabletWidth: 769,
 	start: "80px top",
-	end: "bottom"
+	end: "right"
 };
 
 const principlesHeadingTweenData = {
 	selector: ".principles__heading",
-	horizontalShift: 66.66666666,
+	horizontalShift: false,
 	triggerSelector: ".principles",
 	pinState: false,
 	tabletWidth: 769,
 	start: "80px top",
+	end: "right "
+};
+
+
+const horizontalContainerTweenData = {
+	selector: ".horizontal-container__content",
+	horizontalShift: -(1 - (document.querySelector(".horizontal-container").clientWidth/5885))*100 - (window.innerWidth - 1000)/120 , //-75.53,
+	triggerSelector: ".horizontal-container__content",
+	pinState: true,
+	snap: 0,
+	tabletWidth: 769,
+	start:  "left",
 	end: "bottom"
 };
 
-//Старт моего кода
-const horizontalContainerTweenData = {
-	selector: ".horizontal-container__content",
-	horizontalShift: -(1 - (document.querySelector(".horizontal-container").clientWidth/5885))*100 , //-75.53,
-	triggerSelector: ".horizontal-container__content",
-	pinState: true,
-	tabletWidth: 769,
-	start: document.querySelector(".principles").clientHeight - 80 + " top", //Math.round(document.querySelector(".principles").getBoundingClientRect().height) + "px top",
-	end: "2972.5px top"
-};
-
-
-
-
 
 const horizontalContainerTween = new Tween(horizontalContainerTweenData);
-
-horizontalContainerTween.toggleTween();
-
-window.addEventListener("resize", horizontalContainerTween.toggleTween);
-//Конец моего кода
-
 const principlesTween = new Tween(principlesTweenData);
 const principlesHeadingTween = new Tween(principlesHeadingTweenData);
+const separator = document.querySelector('.animation-separator');
 
 principlesTween.toggleTween();
 principlesHeadingTween.toggleTween();
+horizontalContainerTween.toggleTween();
+resizeSeparator();
 
-window.addEventListener("resize", principlesTween.toggleTween);
-window.addEventListener("resize", principlesHeadingTween.toggleTween);
+window.addEventListener("resize", () => {
+	principlesTween.toggleTween;
+	resizeSeparator();
+	window.location.reload();
+});
+window.addEventListener("resize", () => {
+	principlesHeadingTween.toggleTween;
+	resizeSeparator();
+	window.location.reload();
+});
+window.addEventListener("resize", () => {
+	horizontalContainerTween.toggleTween;
+	resizeSeparator();
+	window.location.reload();
+});
+
+function resizeSeparator () {
+	separator.style.height = parseInt(document.querySelector('.principles').style.width.match(/\d+/))/4 + "px";
+};
+
+
 
 document
 	.querySelectorAll("[data-attribute-anchor]")
