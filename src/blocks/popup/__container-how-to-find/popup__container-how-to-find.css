@@ -2,11 +2,12 @@
 	position: relative;
 	align-self: center;
 	max-width: 900px;
-	margin: 75px;
+	max-height: calc(100vh - 150px);
+	aspect-ratio: 1;
 }
 
 @media screen and (max-width: 480px) {
 	.popup__container-how-to-find {
-		margin: 10px;
+		max-height: calc(100vh - 20px);
 	}
 }
