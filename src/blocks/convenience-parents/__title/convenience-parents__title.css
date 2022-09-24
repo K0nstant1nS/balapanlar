@@ -11,9 +11,9 @@
 	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 	.convenience-parents__title {
-		padding: 160px 75px 80px;
+		padding: 160px 0 80px;
 		font-size: 48px;
 		line-height: 59px;
 	}
