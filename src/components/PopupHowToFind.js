@@ -6,17 +6,6 @@ export class PopupHowToFind extends Popup {
 		this.openButton = document.querySelector('.button_for_how-to-find');
 	}
 
-	open() {
-		this._popup.classList.add("popup_opened");
-		this._setEventListeners();
-		super.open();
-	}
-
-	close() {
-		this._popup.classList.remove("popup_opened");
-		this._removeEventListeners();
-	}
-
 	_handlePressClick = (evt) => {
 		if (evt.target != document.querySelector(".popup__fullscreen-image")) {
 			setTimeout(() => {this.close()}, 100);
