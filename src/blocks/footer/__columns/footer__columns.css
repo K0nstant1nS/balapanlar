@@ -6,7 +6,7 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
 	.footer__columns {
 		display: block;
 	}
