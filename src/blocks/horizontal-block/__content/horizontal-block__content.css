@@ -28,12 +28,13 @@
 @media screen and (max-width: 768px) {
 	.horizontal-block__content {
 		align-items: center;
-		padding: 0;
+		padding: 0 35px;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.horizontal-block__content {
 		gap: 15px;
+		padding: 0 25px;
 	}
 }
