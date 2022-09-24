@@ -8,7 +8,7 @@
 	padding: 0 120px 120px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 	.how-to-find__img-container{
 		grid-template-rows: 1fr;
 		grid-template-columns: 1fr;
