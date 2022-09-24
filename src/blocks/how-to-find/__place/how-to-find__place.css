@@ -1,6 +1,7 @@
 .how-to-find__place {
 	width: 595px;
 	height: 526px;
+	overflow: hidden;
 	border-radius: 60px;
 }
 
@@ -16,5 +17,6 @@
 	.how-to-find__place {
 		width: 290px;
 		height: 255px;
+		border-radius: 30px;
 	}
 }

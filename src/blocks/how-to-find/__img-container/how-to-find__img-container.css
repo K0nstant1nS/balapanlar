@@ -9,9 +9,14 @@
 	padding: 0 120px 120px;
 }
 
+@media screen and (max-width: 1100px) {
+	.how-to-find__img-container{
+		flex-direction: column;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.how-to-find__img-container {
-		flex-direction: column;
 		padding: 0 75px 80px;
 	}
 }
