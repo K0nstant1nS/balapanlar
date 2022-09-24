@@ -23,7 +23,7 @@ class Tween {
 	}
 
 	toggleTween = () => {
-		if (window.screen.width <= this.data.tabletWidth) {
+		if (window.innerWidth <= this.data.tabletWidth) {
 			this.tween.scrollTrigger.disable();
 		} else {
 			this.tween.scrollTrigger.enable();
