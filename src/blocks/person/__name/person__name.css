@@ -10,7 +10,7 @@
 	cursor: default;
 }
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width: 1220px) {
 	.person__name {
 		padding: 15px 0 3px;
 		font-size: 30px;
