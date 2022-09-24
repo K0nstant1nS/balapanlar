@@ -167,9 +167,7 @@
 @import url('../blocks/how-to-find/__place-photo/how-to-find__place-photo.css');
 @import url('../blocks/how-to-find/__die/how-to-find__die.css');
 @import url('../blocks/button/_for/button_for_how-to-find.css');
-@import url('../blocks/popup/__content_fullscreen/popup__content-fullscreen.css');
 @import url('../blocks/popup/__fullscreen-image/popup__fullscreen-image.css');
-@import url('../blocks/popup/__content/_type/popup__content_type_how-to-find.css');
 @import url('../blocks/popup/__close-button-white/popup__close-button-white.css');
 @import url('../blocks/popup/__container-how-to-find/popup__container-how-to-find.css');
 

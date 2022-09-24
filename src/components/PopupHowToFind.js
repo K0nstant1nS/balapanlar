@@ -1,4 +1,4 @@
-import { Popup } from "./Popup";
+import { Popup } from "./Popup.js";
 
 export class PopupHowToFind extends Popup {
 	constructor(popupSelector) {
@@ -9,6 +9,7 @@ export class PopupHowToFind extends Popup {
 	open() {
 		this._popup.classList.add("popup_opened");
 		this._setEventListeners();
+		super.open();
 	}
 
 	close() {

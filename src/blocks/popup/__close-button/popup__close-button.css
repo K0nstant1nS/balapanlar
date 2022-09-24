@@ -15,8 +15,9 @@
 .popup__close-button::after {
 	position: absolute;
 	top: 50%;
+	right: 0;
 	display: block;
-	width: 30px;
+	width: 28.28px;
 	height: 2px;
 	background-color: #252525;
 	border-radius: 50px;
@@ -27,8 +28,9 @@
 .popup__close-button::before {
 	position: absolute;
 	top: 50%;
+	right: 0;
 	display: block;
-	width: 30px;
+	width: 28.28px;
 	height: 2px;
 	background-color: #252525;
 	border-radius: 50px;
