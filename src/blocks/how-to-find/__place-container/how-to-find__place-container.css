@@ -1,0 +1,16 @@
+.how-to-find__place-container {
+	position: relative;
+	max-width: 595px;
+	max-height: 526px;
+	margin: 0;
+	overflow: hidden;
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 480px) {
+	.how-to-find__place-container {
+		max-width: 290px;
+		max-height: 255px;
+		border-radius: 20px;
+	}
+}

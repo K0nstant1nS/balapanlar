@@ -1,0 +1,15 @@
+.how-to-find__place-photo {
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 768px) {
+	.how-to-find__place-photo {
+		border-radius: 40px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.how-to-find__place-photo {
+		border-radius: 30px;
+	}
+}

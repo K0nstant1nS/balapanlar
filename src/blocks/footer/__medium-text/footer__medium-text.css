@@ -10,3 +10,15 @@
 .footer__medium-text:last-of-type {
 	margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+	.footer__medium-text {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer__medium-text {
+		text-align: start;
+	}
+}

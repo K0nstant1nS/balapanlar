@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 903px) {
 	.about__school-options {
-		width: 100%;
+		width: calc(100% - 25px);
 	}
 }
 

@@ -1,0 +1,20 @@
+.faq-qst__button-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 80px;
+	min-height: 90px;
+	margin: 0;
+	padding: 0;
+}
+
+.faq-qst__button-area:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+	.faq-qst__button-area{
+		min-width: 42px;
+		min-height: 52px;
+	}
+}

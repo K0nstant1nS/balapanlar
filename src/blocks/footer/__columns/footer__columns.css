@@ -11,3 +11,9 @@
 		display: block;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.footer__columns {
+		padding: 20px 10px 80px;
+	}
+}
