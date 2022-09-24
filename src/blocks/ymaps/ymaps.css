@@ -1,0 +1,9 @@
+ymaps {
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 768px) {
+	ymaps {
+		border-radius: 40px;
+	}
+}

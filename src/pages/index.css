@@ -199,3 +199,5 @@
 @import url('../blocks/footer/__medium-text/footer__medium-text.css');
 @import url('../blocks/footer/__column-support/footer__column-support.css');
 @import url('../blocks/footer/__column-information/footer__column-information.css');
+
+@import url('../blocks/ymaps/ymaps.css');
