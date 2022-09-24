@@ -1,0 +1,15 @@
+.how-to-find__die{
+	position: absolute;
+	top: 343px;
+	left: -47px;
+	stroke: #ae46ff;
+	stroke-width: 150px;
+}
+
+@media screen and (max-width: 480px) {
+	.how-to-find__die {
+		top: 75px;
+		left: -105px;
+		stroke-width: 80px;
+	}
+}
