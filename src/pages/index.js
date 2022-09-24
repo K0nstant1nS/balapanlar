@@ -104,13 +104,17 @@ resizeSeparator();
 window.addEventListener("resize", () => {
 	principlesTween.toggleTween;
 	resizeSeparator();
+	window.location.reload();
 });
 window.addEventListener("resize", () => {
 	principlesHeadingTween.toggleTween;
 	resizeSeparator();
+	window.location.reload();
 });
-window.addEventListener("resize", () => {horizontalContainerTween.toggleTween;
+window.addEventListener("resize", () => {
+	horizontalContainerTween.toggleTween;
 	resizeSeparator();
+	window.location.reload();
 });
 
 function resizeSeparator () {
