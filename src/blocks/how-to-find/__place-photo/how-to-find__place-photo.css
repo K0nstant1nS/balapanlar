@@ -1,5 +1,9 @@
 .how-to-find__place-photo {
+	width: 100%;
+	height: 100%;
 	border-radius: 60px;
+	object-position: top;
+	object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
