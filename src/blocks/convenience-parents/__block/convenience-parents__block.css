@@ -4,7 +4,7 @@
 	background-color: #eaf0ff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
 	.convenience-parents__block {
 		padding-right: 75px;
 		padding-left: 75px;
