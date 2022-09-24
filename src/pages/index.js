@@ -63,7 +63,7 @@ const principlesTweenData = {
 	horizontalShift: false,
 	triggerSelector: ".principles",
 	pinState: true,
-	tabletWidth: 769,
+	tabletWidth: 768,
 	start: "80px top",
 	end: "right"
 };
@@ -73,7 +73,7 @@ const principlesHeadingTweenData = {
 	horizontalShift: false,
 	triggerSelector: ".principles",
 	pinState: false,
-	tabletWidth: 769,
+	tabletWidth: 768,
 	start: "80px top",
 	end: "right "
 };
@@ -85,7 +85,7 @@ const horizontalContainerTweenData = {
 	triggerSelector: ".horizontal-container__content",
 	pinState: true,
 	snap: 0,
-	tabletWidth: 769,
+	tabletWidth: 768,
 	start:  "left",
 	end: "bottom"
 };
