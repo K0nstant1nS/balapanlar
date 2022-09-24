@@ -11,11 +11,13 @@
 @media (max-width: 1200px) {
 	.convenience-parents__list {
 		grid-template-columns: repeat(2, 1fr);
+		padding-bottom: 80px;
 	}
 }
 
 @media (max-width: 604px) {
 	.convenience-parents__list {
 		grid-template-columns: 1fr;
+		padding-bottom: 30px;
 	}
 }
