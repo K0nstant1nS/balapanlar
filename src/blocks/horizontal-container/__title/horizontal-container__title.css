@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 480px) {
 	.horizontal-container__title {
+		padding: 0 15px 20px;
 		font-size: 36px;
 		line-height: 44px;
 	}
