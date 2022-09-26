@@ -10,9 +10,8 @@
 	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.faq-qst__text {
-		padding: 0 0 15px;
 		font-size: 18px;
 		line-height: 22px;
 	}

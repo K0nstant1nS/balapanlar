@@ -11,7 +11,7 @@
 	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.faq-qst__title {
 		font-size: 18px;
 		line-height: 22px;

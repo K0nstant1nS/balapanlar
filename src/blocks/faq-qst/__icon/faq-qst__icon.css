@@ -52,7 +52,7 @@
 	transition: transform 0.3s 0.3s linear;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.faq-qst__icon{
 		width: 8px;
 		height: 8px;
