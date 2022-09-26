@@ -140,7 +140,7 @@ function toggleFaqQuestion (element) {
 		if (previousQuestion && previousQuestion != element) {
 			previousQuestion.parentNode.querySelector('.faq-qst__answer').classList.remove('faq-qst__answer_opened');
 			previousQuestion.querySelector('.faq-qst__icon').classList.remove('faq-qst__icon_opened');
-			element.classList.remove('faq-qst__question_opened');
+			previousQuestion.classList.remove('faq-qst__question_opened');
 		}
 	} else {
 		answer.classList.remove('faq-qst__answer_opened');
