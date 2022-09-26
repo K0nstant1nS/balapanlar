@@ -1,0 +1,12 @@
+.footer__medium-text-long {
+	display: flex;
+	flex-direction: row;
+	column-gap: 8px;
+}
+
+@media screen and (max-width: 480px) {
+	.footer__medium-text-long {
+		flex-direction: column;
+		margin: 0 0 15px;
+	}
+}

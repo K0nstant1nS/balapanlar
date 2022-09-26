@@ -216,3 +216,5 @@
 @import url('../blocks/footer/__column-support/footer__column-support.css');
 @import url('../blocks/footer/__column-information/footer__column-information.css');
 @import url('../blocks/footer/__content/footer__content.css');
+@import url('../blocks/footer/__semibold-text_information/footer__semibold-text_information.css');
+@import url('../blocks/footer/__medium-text-long/footer__medium-text-long.css');
