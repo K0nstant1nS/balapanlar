@@ -177,14 +177,15 @@
 @import url('../blocks/support-us/__container/support-us__container.css');
 @import url('../blocks/support-us/__cards/support-us__cards.css');
 @import url('../blocks/support-us/__subtitle/support-us__subtitle.css');
+@import url('../blocks/support-us/__description/support-us__description.css');
 @import url('../blocks/support-us-card/support-us-card.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-elis.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-lavender.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-pic.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-yellow.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_no-flex.css');
 @import url('../blocks/support-us-card/__btn/support-us-card__btn.css');
 @import url('../blocks/support-us-card/__btn/_style/support-us-card__btn_style_orchid.css');
-@import url('../blocks/support-us-card/__text/support-us-card__text.css');
 @import url('../blocks/support-us-card/__paragraph/support-us-card__paragraph.css');
 
 /* faq */
