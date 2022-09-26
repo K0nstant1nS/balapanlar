@@ -8,6 +8,7 @@
 	background-image: url('../../../vendor/images/intro.jpg');
 	background-position: 63% 73%;
 	background-size: 157%;
+	border-radius: 60px;
 	aspect-ratio: 1.69 / 1;
 }
 
@@ -16,6 +17,12 @@
 		background-position: 59% 35%;
 		background-size: 220%;
 		aspect-ratio: 248 / 351;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.intro__lead {
+		border-radius: 50px;
 	}
 }
 
@@ -29,6 +36,7 @@
 	.intro__lead {
 		background-position: 59% -30%;
 		background-size: 340%;
+		border-radius: 40px;
 		aspect-ratio: 2 / 5;
 	}
 }

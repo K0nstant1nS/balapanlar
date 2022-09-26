@@ -3,10 +3,6 @@
 @import url('../blocks/body/body.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/main/main.css');
-@import url('../blocks/border-radius/border-radius.css');
-@import url('../blocks/border-radius/border-radius_size-l.css');
-@import url('../blocks/border-radius/border-radius_size-m.css');
-@import url('../blocks/border-radius/border-radius_size-s.css');
 @import url('../blocks/main/__section/main__section.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/logo/_type/logo_type_header-animals.css');
@@ -52,6 +48,7 @@
 @import url('../blocks/course-card/course-card.css');
 @import url('../blocks/course-card/__icon/course-card__icon.css');
 @import url('../blocks/flex-container/flex-container.css');
+@import url('../blocks/flex-container/__inner-flex/flex-container__inner-flex.css');
 @import url('../blocks/flex-container/_type/flex-container_type_skills.css');
 @import url('../blocks/flex-container/_type/flex-container_type_info.css');
 @import url('../blocks/flex-container/_type/flex-container_type_text.css');
