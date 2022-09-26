@@ -1,4 +1,5 @@
 .faq-qst__title {
+	grid-area: question;
 	margin: 0;
 	padding: 0;
 	color: rgba(37, 37, 37, 1);
