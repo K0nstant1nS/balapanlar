@@ -8,19 +8,19 @@
 	}
 }
 
-.faq-qst__button {
+.faq-qst__icon {
 	position: relative;
 	display: block;
 	width: 12px;
 	height: 12px;
-	margin: 0;
+	margin: 9px 0 0;
 	padding: 0;
 	background-color: transparent;
 	border: none;
 	transition: transform 0.3s 0.3s linear;
 }
 
-.faq-qst__button::after {
+.faq-qst__icon::after {
 	position: absolute;
 	top: 0;
 	left: 5px;
@@ -35,7 +35,7 @@
 	border-radius: 20%;
 }
 
-.faq-qst__button::before {
+.faq-qst__icon::before {
 	position: absolute;
 	top: 5px;
 	left: 0;
@@ -52,20 +52,21 @@
 }
 
 @media screen and (max-width: 480px) {
-	.faq-qst__button{
-		width: 10px;
-		height: 10px;
+	.faq-qst__icon{
+		width: 8px;
+		height: 8px;
+		margin: 7px 0 0;
 	}
 
-	.faq-qst__button::after {
-		left: 4px;
+	.faq-qst__icon::after {
+		left: 3px;
 		width: 2px;
-		height: 10px;
+		height: 8px;
 	}
 
-	.faq-qst__button::before {
-		top: 4px;
-		width: 10px;
+	.faq-qst__icon::before {
+		top: 3px;
+		width: 8px;
 		height: 2px;
 	}
 }

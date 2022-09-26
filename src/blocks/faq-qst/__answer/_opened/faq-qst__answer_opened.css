@@ -11,5 +11,18 @@
 }
 
 .faq-qst__answer_opened {
+	padding: 0 30px 30px 101px;
 	animation: open 0.3s 0.3s linear both;
+}
+
+@media screen and (max-width: 768px) {
+	.faq-qst__answer_opened {
+		padding: 0 15px 33px 101px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.faq-qst__answer_opened {
+		padding: 0 15px 0 40px;
+	}
 }

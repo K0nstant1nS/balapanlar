@@ -1,0 +1,9 @@
+.faq-qst__question_opened {
+	padding: 30px 30px 16px;
+}
+
+@media screen and (max-width: 480px) {
+	.faq-qst__question_opened {
+		padding: 15px 15px 10px;
+	}
+}

@@ -3,10 +3,10 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	gap: 21px;
+	gap: 60px;
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 30px 30px 35px;
 	color: rgba(37, 37, 37, 1);
 	font-weight: 600;
 	font-size: 24px;
@@ -21,8 +21,8 @@
 
 @media screen and (max-width: 480px) {
 	.faq-qst__question {
-		gap: 0;
-		padding: 0 15px 0 0;
+		gap: 16px;
+		padding: 15px 15px 15px 16px;
 		font-size: 18px;
 		line-height: 22px;
 	}
