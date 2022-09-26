@@ -9,8 +9,16 @@
 	max-width: 666px;
 }
 
+.horizontal-block:nth-of-type(2) .horizontal-block__text {
+	max-width: 556px;
+}
+
 .horizontal-block:nth-of-type(2) .horizontal-block__content {
 	max-width: 729px;
+}
+
+.horizontal-block:nth-of-type(3) .horizontal-block__text {
+	max-width: 423px;
 }
 
 .horizontal-block:nth-of-type(3) .horizontal-block__content {
@@ -36,5 +44,17 @@
 	.horizontal-block__content {
 		gap: 15px;
 		padding: 0 25px;
+	}
+
+	.horizontal-block:nth-of-type(1) .horizontal-block__title {
+		padding: 0 10px 15px 11px;
+	}
+
+	.horizontal-block:nth-of-type(2) .horizontal-block__content {
+		padding: 0 35px 0 36px;
+	}
+
+	.horizontal-block:nth-of-type(4) .horizontal-block__content {
+		padding: 0 45px 0 45px;
 	}
 }
