@@ -17,6 +17,7 @@
 	word-wrap: break-word;
 	background-color: transparent;
 	border: none;
+	transition: padding 0.1s 0.2s linear;
 }
 
 .faq-qst__question:hover {
