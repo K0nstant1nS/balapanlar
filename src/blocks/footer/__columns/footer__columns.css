@@ -1,21 +1,25 @@
 .footer__columns{
 	display: grid;
 	justify-content: space-between;
-	align-items: end;
+	align-content: end;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 80px 120px;
+	padding: 80px 100px;
 }
 
 @media screen and (max-width: 1159px) {
 	.footer__columns {
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
 	}
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.footer__columns {
+		align-items: flex-start;
 		padding: 20px 15px 80px;
 	}
 }
