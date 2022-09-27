@@ -1,7 +1,7 @@
-.faq-qst__button_opened {
+.faq-qst__icon_opened {
 	transform: rotateZ(90deg);
 }
 
-.faq-qst__button_opened::before {
+.faq-qst__icon_opened::before {
 	transform: rotateZ(90deg) scale(0);
 }

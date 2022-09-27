@@ -15,7 +15,7 @@
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.faq__content {
 		width: calc(100% - 30px);
 		padding: 30px 15px 52px;

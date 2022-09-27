@@ -49,6 +49,8 @@
 
 @media screen and (max-width: 480px) {
 	.about__school-title {
+		bottom: 16px;
+		left: 15px;
 		max-width: 40%;
 		font-size: 7.2vw;
 		line-height: normal;

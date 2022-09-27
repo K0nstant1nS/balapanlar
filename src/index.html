@@ -71,7 +71,7 @@
 						target="_blank" class="button button_for_lead link">Записаться на курсы</a>
 					<div class="telegram-block">
 						<div class="telegram-block__welcome">
-							<img src="<%=require('./vendor/images/telegram.svg')%>" alt="" class="telegram-block__logo" />
+							<img src="<%=require('./vendor/images/telegram.svg')%>" alt="Логотип - телеграм" class="telegram-block__logo" />
 							<p class="telegram-block__text">
 								Следите за&nbsp;последними анонсами и&nbsp;событиями &laquo;Уя&raquo; в&nbsp;нашем Telegram канале
 							</p>
@@ -197,7 +197,7 @@
 				</div>
 				<ul class="courses__grid-wrapper courses__grid-wrapper_small">
 					<li class="course-card ">
-						<h3 class="courses__subtitle">3D технологии</h3>
+						<h3 class="courses__subtitle">Корейский язык</h3>
 						<ul class="flex-container flex-container_type_info">
 							<li class="flex-container__inner-flex">
 								<img class="course-card__icon" src="<%=require('./vendor/images/manMark.svg')%>"
@@ -328,7 +328,7 @@
 							<div class="about__school-img-container ">
 								<img class="about__school-img" src="<%=require('./vendor/images/uyaCenter.png')%>"
 									alt="Радостные дети играют на лужайке." />
-								<h2 class="about__school-title">Досуговый центр&nbsp;«Уя»</h2>
+								<h3 class="about__school-title">Досуговый центр&nbsp;«Уя»</h3>
 							</div>
 							<div class="about__school-description-container">
 								<p class="about__school-description">
@@ -363,7 +363,7 @@
 							<div class="about__school-img-container ">
 								<img class="about__school-img" src="<%=require('./vendor/images/balapanlarSchools.png')%>"
 									alt="Дети стоят в очереди во дворе школы.">
-								<h2 class="about__school-title about__school-title_color_white">Летние&nbsp;школы «Балапанлар»</h2>
+								<h3 class="about__school-title about__school-title_color_white">Летние&nbsp;школы «Балапанлар»</h3>
 							</div>
 							<div class="about__school-description-container">
 								<p class="about__school-description">
@@ -545,46 +545,41 @@
 			<section class="how-to-find" id="how-to-find">
 				<div class="how-to-find__container">
 					<h2 class="how-to-find__title">Как нас найти</h2>
-					<p class="how-to-find__adds">Адрес «УЯ»: аул Икон-Халк, ул.Ленина 175, ТЦ «Каскад», 2 этаж</p>
+					<address class="how-to-find__adds">Адрес «УЯ»: аул Икон-Халк, ул.Ленина 175, ТЦ&nbsp;«Каскад», 2 этаж</address>
 				</div>
 				<div class="how-to-find__img-container">
 					<div id="map" class="how-to-find__place"></div>
 					<div class="how-to-find__place-container">
 						<img src="<%=require('./vendor/images/how-to-find_place-photo_dekstop.jpg')%>" alt="Рисунок нашего ученика с нашим местоположением" class="how-to-find__place-photo">
-						<svg class="how-to-find__die" width="800" height="244" viewBox="0 0 800 244" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M 722.38957,181.17843 -54.263701,85.238798" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M 656.6629,249.65608 -7.348022,167.63109" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
-						<button class="button button_for_how-to-find"></button>
+						<button class="button button_for_how-to-find" type="button"></button>
 						<p class="how-to-find__place-title">вход через серые ворота справа от аптеки</p>
 					</div>
 				</div>
 			</section>
 			<section class="support-us" id="support-us">
 				<div class="support-us__container">
-					<h2 class="section-title">Поддержать наш проект</h2>
-					<p class="section-subtitle">Миссия нашей организации — помочь детям в аулах. Мы знаем, как много детей из-за невнимания родителей, безучастности школы и отсутствия денег и условий не могут полноценно развиваться и стать успешными взрослыми в будущем. Поэтому мы ищем спонсоров, кто мог бы им помочь.</p>
+					<h2 class="section-title">Поддержать наш&nbsp;проект</h2>
+					<p class="section-subtitle support-us__description">Миссия нашей организации — помочь&nbsp;детям в аулах.
+																															Мы&nbsp;знаем, как&nbsp;много детей из-за&nbsp;невнимания родителей,
+																															безучастности школы и&nbsp;отсутствия денег и&nbsp;условий
+																															не&nbsp;могут полноценно развиваться и&nbsp;стать успешными
+																															взрослыми&nbsp;в будущем. Поэтому мы ищем спонсоров,
+																															кто&nbsp;мог&nbsp;бы&nbsp;им помочь.</p>
 					<h3 class="support-us__subtitle">Как вы можете помочь?</h3>
 					<ul class="support-us__cards">
 						<li class="support-us-card support-us-card_style_back-yellow">
-							<div class="support-us-card__text">
-								<p class="support-us-card__paragraph">Делая небольшое ежемесячное пожертвование, вы можете обеспечить детей материалами для занятий и мастер-классов, оплатить работу
-									преподавателей или стать спонсором ребёнку</p>
-							</div>
+							<p class="support-us-card__paragraph">Делая небольшое ежемесячное пожертвование, вы можете обеспечить детей материалами для занятий и мастер-классов, оплатить работу
+								преподавателей или стать спонсором ребёнку</p>
 							<a href="https://balapanlar.ru/campaign/na-ustavnuyu-deyatelnost-organizaczii/" target="_blank" class="support-us-card__btn  button">Сделать пожертвование</a>
 						</li>
 						<li class="support-us-card support-us-card_style_back-lavender">
-						<div class="support-us-card__text">
 							<p class="support-us-card__paragraph">Мы всегда в поиске преподавателей, менторов, если вы хотите провести лекцию, мастер класс или консультацию pro bono
 								по вашей теме — напишите нам на почту или свяжитесь с нами через форму ниже</p>
-						</div>
 							<a href="https://docs.google.com/forms/d/e/1FAIpQLSckp975242KEGteEg9gsT9JQ7E7G3kyfOa8GT3P1iwC6QIukA/viewform" target="_blank" class="support-us-card__btn button support-us-card__btn_style_orchid">Стать ментором</a>
 						</li>
-						<li class="support-us-card support-us-card_style_back-elis">
-							<div class="support-us-card__text">
-								<p class="support-us-card__paragraph">Вы можете купить нам книги или подарить те, которые уже прочитали.</p>
-								<p class="support-us-card__paragraph">Присылать можно по адресу: 369357, Карачаево-Черкесия, Ногайский район, аул Эркин-Халк, ул. Набережная 3, Шахмирзе Бэлле</p>
-							</div>
+						<li class="support-us-card support-us-card_style_back-elis support-us-card_style_no-flex">
+							<p class="support-us-card__paragraph">Вы можете купить нам книги или подарить те, которые уже прочитали.</p>
+							<p class="support-us-card__paragraph">Присылать можно по адресу: 369357, Карачаево-Черкесия, Ногайский район, аул Эркин-Халк, ул. Набережная 3, Шахмирзе Бэлле</p>
 						</li>
 						<li class="support-us-card support-us-card_style_back-pic"></li>
 					</ul>
@@ -595,29 +590,25 @@
 					<h2 class="section-title faq__title">Часто задаваемые вопросы</h2>
 					<ul class="faq__questions">
 						<li class="faq-qst">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Как проходят занятия?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
-									Наши занятия проходят в&nbsp;будни и&nbsp;в&nbsp;выходные. В&nbsp;будни 2&nbsp;раза в&nbsp;неделю по&nbsp;2&nbsp;часа, в&nbsp;выходные 1&nbsp;раз по&nbsp;3&nbsp;часа с&nbsp;перерывами.
+									Наши занятия проходят&nbsp;в&nbsp;будни и&nbsp;в&nbsp;выходные. В&nbsp;будни 2&nbsp;раза в&nbsp;неделю по&nbsp;2&nbsp;часа, в&nbsp;выходные 1&nbsp;раз по&nbsp;3&nbsp;часа с&nbsp;перерывами.
 								</p>
 							</div>
 						</li>
 						<li class="faq-qst faq-qst_color_gray">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Сколько стоит обучение?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									Обучение стоит 3500&nbsp;руб/мес. В&nbsp;среднем это 8&ndash;9 занятий в&nbsp;месяц, цена одного занятия (2&nbsp;астрономических часа)&nbsp;&mdash; около 390&nbsp;₽. Мы&nbsp;уверены, что частные репетиторы стоят дороже.
@@ -625,14 +616,12 @@
 							</div>
 						</li>
 						<li class="faq-qst">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Если у меня двое детей?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									Мы&nbsp;предоставляем скидку в&nbsp;15% на&nbsp;обоих детей.
@@ -640,14 +629,12 @@
 							</div>
 						</li>
 						<li class="faq-qst faq-qst_color_gray">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Это&nbsp;же благотворительный проект, почему курсы не&nbsp;бесплатные?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									Мы&nbsp;хотим, чтобы у&nbsp;детей в&nbsp;ауле был доступ к&nbsp;современному и&nbsp;хорошему образованию, поэтому наш центр должен вкладываться не&nbsp;только в&nbsp;аренду и&nbsp;коммунальные расходы, но&nbsp;и&nbsp;в&nbsp;развитие наших сотрудников, их&nbsp;зарплаты, закупку хорошего оборудования, современных программ и&nbsp;доступные снэки для ваших детей. Взносы за&nbsp;наши курсы позволяют планировать долгосрочную и&nbsp;качественную работу. И&nbsp;мы&nbsp;точно знаем, что школы в&nbsp;городе стоят намного дороже и&nbsp;везти туда детей не&nbsp;так удобно, как к&nbsp;нам.
@@ -655,14 +642,12 @@
 							</div>
 						</li>
 						<li class="faq-qst">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Если я&nbsp;не&nbsp;оплатил/а курсы, мой ребёнок не&nbsp;может ходить в&nbsp;&laquo;уя&raquo;?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									Конечно&nbsp;же может. Наш центр открыт для всех детей, которые живут в&nbsp;ауле. Ваш ребёнок в&nbsp;любое время может к&nbsp;нам придти, читать книги, встречаться с&nbsp;друзьями, делать у&nbsp;нас домашнее задание, пить чай или какао, посещать все доступные занятия и&nbsp;лекции.
@@ -670,14 +655,12 @@
 							</div>
 						</li>
 						<li class="faq-qst faq-qst_color_gray">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Наша семья не&nbsp;в&nbsp;состоянии платить, но&nbsp;очень хочется, чтобы сын/дочь получал/а хорошие знания. Как быть?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									Мы&nbsp;очень хотим, чтобы как можно больше детей посещали наши занятия. Поэтому у&nbsp;нас есть система стипендий, вам (ещё лучше вашему ребёнку) нужно написать мотивационное письмо, почему он/она хочет у&nbsp;нас учиться. Мы&nbsp;рассматриваем заявку в&nbsp;течение месяца, проводим собеседование с&nbsp;вами, ищем подходящего спонсора для стипендии и&nbsp;можно приступать к&nbsp;учёбе! Предупреждаем сразу, что не&nbsp;гарантируем стипендии любому, кто напишет письмо. Ждём ваши письма по&nbsp;электронной почте balapanlar@gmail.com с&nbsp;пометкой &laquo;хочу у&nbsp;вас учиться&raquo;.
@@ -685,14 +668,12 @@
 							</div>
 						</li>
 						<li class="faq-qst">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Что будет, если пропустить занятие?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									Вы&nbsp;можете нагнать пропущенное занятие с&nbsp;другой группой.
@@ -700,14 +681,12 @@
 							</div>
 						</li>
 						<li class="faq-qst faq-qst_color_gray">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Мой ребёнок много учится и&nbsp;после школы будет голодным/-ой на&nbsp;занятиях у&nbsp;вас, если курсы вечером.
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									В&nbsp;открытом доступе для всех детей у&nbsp;нас есть здоровые снэки, фрукты, вода/чай/молоко/йогурт, можно сделать себе бутерброд. Так что, голодным ваш ребёнок не&nbsp;останется.
@@ -715,14 +694,12 @@
 							</div>
 						</li>
 						<li class="faq-qst">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Я&nbsp;не&nbsp;разбираюсь в&nbsp;ваших курсах. Как я&nbsp;узнаю, есть&nbsp;ли у&nbsp;ребёнка прогресс?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									В&nbsp;течение всего курса родители получают новости от&nbsp;нас о&nbsp;том, как идут дела у&nbsp;наших студентов. У&nbsp;нас не&nbsp;предусмотрена система оценок, но&nbsp;для каждого студента мы&nbsp;составляем специальную дорожную карту&nbsp;&mdash; с&nbsp;чем он/она пришли к&nbsp;нам, что изучают и&nbsp;как идёт процесс. В&nbsp;конце курса каждый предоставит свой проект. Для родителей у&nbsp;нас также предусмотрены лекции и&nbsp;консультации, где мы&nbsp;рассказываем о&nbsp;профессиях будущего, актуальном образовании и&nbsp;подрастающем поколении в&nbsp;целом.
@@ -730,14 +707,12 @@
 							</div>
 						</li>
 						<li class="faq-qst faq-qst_color_gray">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Зачем ходить на&nbsp;курсы? Если мой ребёнок хорошо закончит школу, в&nbsp;университете всему научится.
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									К&nbsp;сожалению, школы в&nbsp;сёлах и&nbsp;аулах не&nbsp;всегда предоставляют детям актуальные знания и&nbsp;зачастую нет предметов, которые&nbsp;бы помогли расширить кругозор. В&nbsp;нашем центре мы&nbsp;помогаем детям не&nbsp;просто получить знания, но&nbsp;и&nbsp;учим их&nbsp;работать в&nbsp;команде, уметь вести дискуссию, выступать перед аудиторией, защищать свои проекты.
@@ -748,14 +723,12 @@
 							</div>
 						</li>
 						<li class="faq-qst">
-							<div class="faq-qst__question">
-								<div class="faq-qst__button-area">
-									<button class="faq-qst__button" type="button"></button>
-								</div>
+							<button class="faq-qst__question" type="button">
+								<div class="faq-qst__icon" type="button"></div>
 								<h3 class="faq-qst__title">
 									Мне нравится ваш проект, как я&nbsp;могу помочь?
 								</h3>
-							</div>
+							</button>
 							<div class="faq-qst__answer">
 								<p class="faq-qst__text">
 									Нам очень приятно! Вы&nbsp;можете помогать нам разными способами. Вот они:
@@ -789,11 +762,14 @@
 					<a href="https://balapanlar.ru/campaign/na-ustavnuyu-deyatelnost-organizaczii/" class="button button_for_support-the-project link" target="_blank">Поддержать проект</a>
 				</div>
 				<div class="footer__column-information">
-					<p class="footer__semibold-text">Данные об организации</p>
+					<p class="footer__semibold-text footer__semibold-text_information">Данные об организации</p>
 					<p class="footer__medium-text">Автономная некоммерческая организация Центр социальных инновационных технологий «ЗАМАН»</p>
 					<p class="footer__medium-text">ИНН 9701112541 КПП 770101001</p>
 					<p class="footer__medium-text">ОГРН 1187700010244</p>
-					<p class="footer__medium-text">р/с 40703810238000014372 БИК 044525225</p>
+					<div class="footer__medium-text-long">
+					<p class="footer__medium-text">р/с 40703810238000014372 </p>
+					<p class="footer__medium-text">БИК 044525225</p>
+				</div>
 					<p class="footer__medium-text">ПАО СберБанк к/с 30101810400000000225</p>
 					<p class="footer__medium-text">Юридический адрес: 105082 Москва,</p>
 					<p class="footer__medium-text">ул. Б. Почтовая, 18/20, корп. 11, кв. 65</p>
@@ -807,7 +783,7 @@
 		</footer>
 	</div>
 	<div class="popup popup_type_course" data-scroll-lock-scrollable>
-		<div class="popup__container" data-scroll-lock-scrollable>
+		<div class="popup__container popup__container_type_course" data-scroll-lock-scrollable>
 			<div class="popup__content popup__content_type_courses"></div>
 			<button type="button" class="popup__close-button" aria-label="Закрыть модальное окно."></button>
 		</div>
@@ -821,10 +797,10 @@
 	</div>
 <div class="popup popup_type_how-to-find" data-scroll-lock-scrollable>
 	<div class="popup__container popup__container-how-to-find" data-scroll-lock-scrollable>
-		<img src="<%=require('./vendor/images/how-to-find_place-photo_dekstop.jpg')%>" alt="Рисунок нашего ученика с нашим местоположением" class="popup__fullscreen-image how-to-find__place-photo">
+		<img src="<%=require('./vendor/images/how-to-find_place-photo_dekstop.jpg')%>" alt="Рисунок нашего ученика с нашим местоположением" class="popup__fullscreen-image">
 		<button type="button" class="popup__close-button-white" aria-label="Закрыть модальное окно."></button>
 	</div>
 </div>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=8d85ce6f-3c2a-430c-b9f4-4702060528e9" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=8d85ce6f-3c2a-430c-b9f4-4702060528e9"></script>
 </body>
 </html>

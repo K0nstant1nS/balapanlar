@@ -96,6 +96,7 @@
 @import url('../blocks/burger-button/__line-element/burger-button__line-element.css');
 @import url('../blocks/burger-button/__line-element/_active/burger-button__line-element_active.css');
 @import url('../blocks/popup/__container/_type/popup__container_type_partner.css');
+@import url('../blocks/popup/__container/_type/popup__container_type_course.css');
 @import url('../blocks/popup/__partner-image/popup__partner-image.css');
 @import url('../blocks/popup/__partner-description/popup__partner-description.css');
 @import url('../blocks/popup/_type/popup_type_header.css');
@@ -162,7 +163,6 @@
 @import url('../blocks/how-to-find/__place-container/how-to-find__place-container.css');
 @import url('../blocks/how-to-find/__place-title/how-to-find__place-title.css');
 @import url('../blocks/how-to-find/__place-photo/how-to-find__place-photo.css');
-@import url('../blocks/how-to-find/__die/how-to-find__die.css');
 @import url('../blocks/button/_for/button_for_how-to-find.css');
 @import url('../blocks/popup/__fullscreen-image/popup__fullscreen-image.css');
 @import url('../blocks/popup/__close-button-white/popup__close-button-white.css');
@@ -174,14 +174,15 @@
 @import url('../blocks/support-us/__container/support-us__container.css');
 @import url('../blocks/support-us/__cards/support-us__cards.css');
 @import url('../blocks/support-us/__subtitle/support-us__subtitle.css');
+@import url('../blocks/support-us/__description/support-us__description.css');
 @import url('../blocks/support-us-card/support-us-card.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-elis.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-lavender.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-pic.css');
 @import url('../blocks/support-us-card/_style/support-us-card_style_back-yellow.css');
+@import url('../blocks/support-us-card/_style/support-us-card_style_no-flex.css');
 @import url('../blocks/support-us-card/__btn/support-us-card__btn.css');
 @import url('../blocks/support-us-card/__btn/_style/support-us-card__btn_style_orchid.css');
-@import url('../blocks/support-us-card/__text/support-us-card__text.css');
 @import url('../blocks/support-us-card/__paragraph/support-us-card__paragraph.css');
 
 /* faq */
@@ -192,10 +193,10 @@
 @import url('../blocks/faq/__questions/faq__questions.css');
 @import url('../blocks/faq-qst/faq-qst.css');
 @import url('../blocks/faq-qst/__question/faq-qst__question.css');
+@import url('../blocks/faq-qst/__question/_opened/faq-qst__question_opened.css');
 @import url('../blocks/faq-qst/_color/faq-qst_color_gray.css');
-@import url('../blocks/faq-qst/__button-area/faq-qst__button-area.css');
-@import url('../blocks/faq-qst/__button/faq-qst__button.css');
-@import url('../blocks/faq-qst/__button/_opened/faq-qst__button_opened.css');
+@import url('../blocks/faq-qst/__icon/faq-qst__icon.css');
+@import url('../blocks/faq-qst/__icon/_opened/faq-qst__icon_opened.css');
 @import url('../blocks/faq-qst/__title/faq-qst__title.css');
 @import url('../blocks/faq-qst/__answer/faq-qst__answer.css');
 @import url('../blocks/faq-qst/__text/faq-qst__text.css');
@@ -213,3 +214,5 @@
 @import url('../blocks/footer/__column-support/footer__column-support.css');
 @import url('../blocks/footer/__column-information/footer__column-information.css');
 @import url('../blocks/footer/__content/footer__content.css');
+@import url('../blocks/footer/__semibold-text_information/footer__semibold-text_information.css');
+@import url('../blocks/footer/__medium-text-long/footer__medium-text-long.css');

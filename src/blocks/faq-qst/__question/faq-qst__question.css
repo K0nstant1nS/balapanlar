@@ -1,12 +1,12 @@
 .faq-qst__question {
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 12px 60px 1fr;
+	grid-template-areas: 'icon . question';
 	justify-content: flex-start;
-	align-items: flex-start;
-	gap: 21px;
+	align-content: flex-start;
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 30px 30px 35px;
 	color: rgba(37, 37, 37, 1);
 	font-weight: 600;
 	font-size: 24px;
@@ -19,10 +19,14 @@
 	border: none;
 }
 
-@media screen and (max-width: 480px) {
+.faq-qst__question:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
 	.faq-qst__question {
-		gap: 0;
-		padding: 0 15px 0 0;
+		grid-template-columns: 8px 16px 1fr;
+		padding: 15px 15px 15px 16px;
 		font-size: 18px;
 		line-height: 22px;
 	}

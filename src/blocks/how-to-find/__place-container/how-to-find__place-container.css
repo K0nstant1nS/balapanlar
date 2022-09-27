@@ -6,8 +6,33 @@
 	aspect-ratio: 1.13;
 }
 
+.how-to-find__place-container::before{
+	position: absolute;
+	bottom: -25px;
+	left: -415px;
+	width: 800px;
+	height: 244px;
+	content: '';
+	background-image: url('../../../vendor/images/die_bold.svg');
+}
+
+@media screen and (max-width: 520px) {
+	.how-to-find__place-container::before {
+		bottom: -20px;
+		content: '';
+		background-image: url('../../../vendor/images/die_normal.svg');
+	}
+}
+
 @media screen and (max-width: 480px) {
 	.how-to-find__place-container {
 		border-radius: 20px;
+	}
+
+	.how-to-find__place-container::before {
+		bottom: -30px;
+		left: -462px;
+		content: '';
+		background-image: url('../../../vendor/images/die_thin.svg');
 	}
 }

@@ -2,7 +2,7 @@
 	position: relative;
 	align-self: center;
 	max-width: calc(100% - 150px);
-	max-height: calc(100% - 150px);
+	max-height: calc(100% - 122px);
 	aspect-ratio: 1;
 	padding: 0;
 }
