@@ -18,7 +18,7 @@
 	padding: 0;
 	background-color: transparent;
 	border: none;
-	transition: transform 0.2s 0.2s linear;
+	transition: transform 0.3s 0.3s linear;
 }
 
 .faq-qst__icon::after {
