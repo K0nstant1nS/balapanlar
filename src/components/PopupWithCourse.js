@@ -19,11 +19,10 @@ export class PopupWithCourse extends Popup {
 		btn.addEventListener('mousedown', () => super.close())
 		if (document.documentElement.clientWidth >= 1000) {
 		content.querySelector('.flex-container_type_info').style = 'flex-direction: row';};
-		content.querySelector('.flex-container_type_text').style = 'gap: 30px';
 		content.querySelector('.course-card__list').className = 'popup__text-skills';
 		content.querySelectorAll('.course-card__list-item').forEach(item => {
-			item.classList.remove('course-card__list-item')
-			item.style = 'display: list';
+			item.classList.add('course-card__list-item_popup');
+			item.classList.remove('course-card__list-item');
 		})
 	}
 }

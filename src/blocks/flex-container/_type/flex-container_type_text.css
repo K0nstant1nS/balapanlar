@@ -10,3 +10,9 @@
 		gap: 30px;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.flex-container_type_text {
+		gap: 20px;
+	}
+}

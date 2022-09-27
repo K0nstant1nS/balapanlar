@@ -8,6 +8,6 @@
 @media screen and (max-width: 480px) {
 	.course-card__text {
 		font-size: 16px;
-		line-height: 19.5px;
+		line-height: 20px;
 	}
 }
