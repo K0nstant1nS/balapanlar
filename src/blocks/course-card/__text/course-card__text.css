@@ -1,8 +1,8 @@
 .course-card__text {
 	margin: 0;
-	padding: 0;
+	padding: 0 2px 0 0;
 	font-size: 18px;
-	line-height: 21.94px;
+	line-height: 22px;
 }
 
 @media screen and (max-width: 480px) {
