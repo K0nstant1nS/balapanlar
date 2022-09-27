@@ -11,12 +11,5 @@
 }
 
 .faq-qst__answer_opened {
-	padding: 0 30px 30px 101px;
 	animation: open 0.3s 0.3s linear both;
-}
-
-@media screen and (max-width: 520px) {
-	.faq-qst__answer_opened {
-		padding: 0 15px 15px 40px;
-	}
 }

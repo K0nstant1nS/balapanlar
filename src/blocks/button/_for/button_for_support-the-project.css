@@ -1,19 +1,12 @@
 .button_for_support-the-project {
-	margin: 0 auto 57px;
+	margin: 0;
 	padding: 20px 28px;
 	font-size: 20px;
 	line-height: 1.2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 520px) {
 	.button_for_support-the-project {
-		margin-bottom: 80px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.button_for_support-the-project {
-		margin-bottom: 50px;
 		padding: 20px 36.5px;
 	}
 }

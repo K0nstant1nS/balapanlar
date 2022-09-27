@@ -2,18 +2,23 @@
 	display: flex;
 	grid-area: 1 / 1 / 2 / 2;
 	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
 	max-width: 272px;
 	margin: 0;
+	padding: 0 0 57px;
 }
 
-@media screen and (max-width: 1159px) {
+@media screen and (max-width: 768px) {
 	.footer__column-support {
-		margin: 0 auto;
+		padding: 0 0 80px;
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.footer__column-support {
+		align-self: center;
 		max-width: 289px;
+		padding: 0 0 50px;
 	}
 }
