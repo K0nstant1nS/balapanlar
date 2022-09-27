@@ -99,6 +99,7 @@
 @import url('../blocks/burger-button/__line-element/burger-button__line-element.css');
 @import url('../blocks/burger-button/__line-element/_active/burger-button__line-element_active.css');
 @import url('../blocks/popup/__container/_type/popup__container_type_partner.css');
+@import url('../blocks/popup/__container/_type/popup__container_type_course.css');
 @import url('../blocks/popup/__partner-image/popup__partner-image.css');
 @import url('../blocks/popup/__partner-description/popup__partner-description.css');
 @import url('../blocks/popup/_type/popup_type_header.css');
