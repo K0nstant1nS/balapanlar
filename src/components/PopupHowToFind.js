@@ -1,4 +1,4 @@
-import { Popup } from "./Popup.js";
+import { Popup } from './Popup.js';
 
 export class PopupHowToFind extends Popup {
 	constructor(popupSelector) {
@@ -7,18 +7,18 @@ export class PopupHowToFind extends Popup {
 	}
 
 	_handlePressClick = (evt) => {
-		if (evt.target != document.querySelector(".popup__fullscreen-image")) {
+		if (evt.target != document.querySelector('.popup__fullscreen-image')) {
 			setTimeout(() => {this.close()}, 100);
 		}
 	};
 
 	_setEventListeners() {
-		document.addEventListener("mousedown", this._handlePressClick);
-		document.addEventListener("keydown", this._handlePressEsc);
+		document.addEventListener('mousedown', this._handlePressClick);
+		document.addEventListener('keydown', this._handlePressEsc);
 	}
 
 	_removeEventListeners() {
-		document.removeEventListener("mousedown", this._handlePressClick);
-		document.removeEventListener("keydown", this._handlePressEsc);
+		document.removeEventListener('mousedown', this._handlePressClick);
+		document.removeEventListener('keydown', this._handlePressEsc);
 	}
 }

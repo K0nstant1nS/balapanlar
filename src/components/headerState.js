@@ -1,23 +1,23 @@
-const header = document.querySelector(".header");
-const headerLogo = header.querySelector(".logo");
-const firstSection = document.getElementsByTagName("section")[0];
-const headerStandartPadding = "10px";
-const headerNarrowPadding = "18px";
-const headerTabletPadding = "24px";
-const headerMobilePadding = "12px";
-const compensatePadding = "48px";
-const initialPadding = "0";
+const header = document.querySelector('.header');
+const headerLogo = header.querySelector('.logo');
+const firstSection = document.getElementsByTagName('section')[0];
+const headerStandartPadding = '10px';
+const headerNarrowPadding = '18px';
+const headerTabletPadding = '24px';
+const headerMobilePadding = '12px';
+const compensatePadding = '48px';
+const initialPadding = '0';
 const burgerWidth = 1110;
 const mobileWidth = 480;
 
 function setAnimalLogo() {
-	headerLogo.classList.remove("logo_type_header-text");
-	headerLogo.classList.add("logo_type_header-animals");
+	headerLogo.classList.remove('logo_type_header-text');
+	headerLogo.classList.add('logo_type_header-animals');
 }
 
 function setTextLogo() {
-	headerLogo.classList.remove("logo_type_header-animals");
-	headerLogo.classList.add("logo_type_header-text");
+	headerLogo.classList.remove('logo_type_header-animals');
+	headerLogo.classList.add('logo_type_header-text');
 }
 
 function toggleHeaderState() {
