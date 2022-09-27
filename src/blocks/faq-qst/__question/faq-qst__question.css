@@ -19,6 +19,10 @@
 	border: none;
 }
 
+.faq-qst__question:hover {
+	cursor: pointer;
+}
+
 @media screen and (max-width: 520px) {
 	.faq-qst__question {
 		grid-template-columns: 8px 16px 1fr;
