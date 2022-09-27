@@ -81,7 +81,7 @@ const principlesHeadingTweenData = {
 
 const horizontalContainerTweenData = {
 	selector: ".horizontal-container__content",
-	horizontalShift: -(1 - (document.querySelector(".horizontal-container").clientWidth/5885))*100 - (window.innerWidth - 1000)/200 ,
+	horizontalShift: -(1 - (document.querySelector(".horizontal-container").clientWidth/5845))*100 - (window.innerWidth - 1000)/200 ,
 	triggerSelector: ".horizontal-container__content",
 	pinState: true,
 	snap: 0,

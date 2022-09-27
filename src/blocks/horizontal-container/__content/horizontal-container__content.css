@@ -7,7 +7,7 @@
 	gap: 40px;
 	width: 5725px;
 	min-height: calc(100vh + 80px);
-	padding-left: 120px;
+	padding-left: 80px;
 	overflow: hidden;
 }
 
@@ -19,11 +19,5 @@
 		width: 100%;
 		padding: 0;
 		overflow: visible;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.horizontal-container__content {
-		width: 100%;
 	}
 }

@@ -465,13 +465,13 @@
 				<h2 class="horizontal-container__title">Почему вашему ребёнку понравится у нас?</h2>
 				<div class="horizontal-block horizontal-block_bg-type_orange">
 					<div class="horizontal-block__content">
-						<h3 class="horizontal-block__title">Самые современные и полные курсы</h3>
-						<div class="horizontal-block__clouds-container">
-							<span class="horizontal-block__text-cloud">python start</span>
-							<span class="horizontal-block__text-cloud">разработка web-сайтов</span>
-							<span class="horizontal-block__text-cloud">3D технологии</span>
-							<span class="horizontal-block__text-cloud">иностранные языки</span>
-						</div>
+						<h3 class="horizontal-block__title">Самые современные и&nbsp;полные курсы</h3>
+						<ul class="horizontal-block__clouds-container">
+							<li class="horizontal-block__text-cloud">python start</li>
+							<li class="horizontal-block__text-cloud">разработка web-сайтов</li>
+							<li class="horizontal-block__text-cloud">3D технологии</li>
+							<li class="horizontal-block__text-cloud">иностранные языки</li>
+						</ul>
 					</div>
 				</div>
 				<div class="horizontal-block horizontal-block_bg-type_unformal">
@@ -521,22 +521,22 @@
 				<ul class="persons">
 					<li class="person">
 						<img src="<%=require('./vendor/images/person-faund.png')%>" alt="Фото основательницы" class="person__photo">
-						<p class="person__name">Бэлла Шахмирзе</p>
+						<h3 class="person__name">Бэлла Шахмирзе</h3>
 						<p class="person__about">Основательница</p>
 					</li>
 					<li class="person">
 						<img src="<%=require('./vendor/images/person-admin.png')%>" alt="Фото администратора Аиды" class="person__photo">
-						<p class="person__name">Аида Бергасова</p>
+						<h3 class="person__name">Аида Бергасова</h3>
 						<p class="person__about">Администратор</p>
 					</li>
 					<li class="person">
 						<img src="<%=require('./vendor/images/person-admin2.png')%>" alt="Фото администратора Карины" class="person__photo">
-						<p class="person__name">Карина Баисова</p>
+						<h3 class="person__name">Карина Баисова</h3>
 						<p class="person__about">Администратор</p>
 					</li>
 					<li class="person">
 						<img src="<%=require('./vendor/images/person-supervisor.png')%>" alt="Фото кураторки программы" class="person__photo">
-						<p class="person__name">Амина Карасова</p>
+						<h3 class="person__name">Амина Карасова</h3>
 						<p class="person__about">Кураторка программы</p>
 					</li>
 				</ul>
@@ -545,46 +545,41 @@
 			<section class="how-to-find" id="how-to-find">
 				<div class="how-to-find__container">
 					<h2 class="how-to-find__title">Как нас найти</h2>
-					<p class="how-to-find__adds">Адрес «УЯ»: аул Икон-Халк, ул.Ленина 175, ТЦ «Каскад», 2 этаж</p>
+					<address class="how-to-find__adds">Адрес «УЯ»: аул Икон-Халк, ул.Ленина 175, ТЦ&nbsp;«Каскад», 2 этаж</address>
 				</div>
 				<div class="how-to-find__img-container">
 					<div id="map" class="how-to-find__place"></div>
 					<div class="how-to-find__place-container">
 						<img src="<%=require('./vendor/images/how-to-find_place-photo_dekstop.jpg')%>" alt="Рисунок нашего ученика с нашим местоположением" class="how-to-find__place-photo">
-						<svg class="how-to-find__die" width="800" height="244" viewBox="0 0 800 244" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M 722.38957,181.17843 -54.263701,85.238798" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M 656.6629,249.65608 -7.348022,167.63109" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
-						<button class="button button_for_how-to-find"></button>
+						<button class="button button_for_how-to-find" type="button"></button>
 						<p class="how-to-find__place-title">вход через серые ворота справа от аптеки</p>
 					</div>
 				</div>
 			</section>
 			<section class="support-us" id="support-us">
 				<div class="support-us__container">
-					<h2 class="section-title">Поддержать наш проект</h2>
-					<p class="section-subtitle">Миссия нашей организации — помочь детям в аулах. Мы знаем, как много детей из-за невнимания родителей, безучастности школы и отсутствия денег и условий не могут полноценно развиваться и стать успешными взрослыми в будущем. Поэтому мы ищем спонсоров, кто мог бы им помочь.</p>
+					<h2 class="section-title">Поддержать наш&nbsp;проект</h2>
+					<p class="section-subtitle support-us__description">Миссия нашей организации — помочь&nbsp;детям в аулах.
+																															Мы&nbsp;знаем, как&nbsp;много детей из-за&nbsp;невнимания родителей,
+																															безучастности школы и&nbsp;отсутствия денег и&nbsp;условий
+																															не&nbsp;могут полноценно развиваться и&nbsp;стать успешными
+																															взрослыми&nbsp;в будущем. Поэтому мы ищем спонсоров,
+																															кто&nbsp;мог&nbsp;бы&nbsp;им помочь.</p>
 					<h3 class="support-us__subtitle">Как вы можете помочь?</h3>
 					<ul class="support-us__cards">
 						<li class="support-us-card support-us-card_style_back-yellow">
-							<div class="support-us-card__text">
-								<p class="support-us-card__paragraph">Делая небольшое ежемесячное пожертвование, вы можете обеспечить детей материалами для занятий и мастер-классов, оплатить работу
-									преподавателей или стать спонсором ребёнку</p>
-							</div>
+							<p class="support-us-card__paragraph">Делая небольшое ежемесячное пожертвование, вы можете обеспечить детей материалами для занятий и мастер-классов, оплатить работу
+								преподавателей или стать спонсором ребёнку</p>
 							<a href="https://balapanlar.ru/campaign/na-ustavnuyu-deyatelnost-organizaczii/" target="_blank" class="support-us-card__btn  button">Сделать пожертвование</a>
 						</li>
 						<li class="support-us-card support-us-card_style_back-lavender">
-						<div class="support-us-card__text">
 							<p class="support-us-card__paragraph">Мы всегда в поиске преподавателей, менторов, если вы хотите провести лекцию, мастер класс или консультацию pro bono
 								по вашей теме — напишите нам на почту или свяжитесь с нами через форму ниже</p>
-						</div>
 							<a href="https://docs.google.com/forms/d/e/1FAIpQLSckp975242KEGteEg9gsT9JQ7E7G3kyfOa8GT3P1iwC6QIukA/viewform" target="_blank" class="support-us-card__btn button support-us-card__btn_style_orchid">Стать ментором</a>
 						</li>
-						<li class="support-us-card support-us-card_style_back-elis">
-							<div class="support-us-card__text">
-								<p class="support-us-card__paragraph">Вы можете купить нам книги или подарить те, которые уже прочитали.</p>
-								<p class="support-us-card__paragraph">Присылать можно по адресу: 369357, Карачаево-Черкесия, Ногайский район, аул Эркин-Халк, ул. Набережная 3, Шахмирзе Бэлле</p>
-							</div>
+						<li class="support-us-card support-us-card_style_back-elis support-us-card_style_no-flex">
+							<p class="support-us-card__paragraph">Вы можете купить нам книги или подарить те, которые уже прочитали.</p>
+							<p class="support-us-card__paragraph">Присылать можно по адресу: 369357, Карачаево-Черкесия, Ногайский район, аул Эркин-Халк, ул. Набережная 3, Шахмирзе Бэлле</p>
 						</li>
 						<li class="support-us-card support-us-card_style_back-pic"></li>
 					</ul>
@@ -767,11 +762,14 @@
 					<a href="https://balapanlar.ru/campaign/na-ustavnuyu-deyatelnost-organizaczii/" class="button button_for_support-the-project link" target="_blank">Поддержать проект</a>
 				</div>
 				<div class="footer__column-information">
-					<p class="footer__semibold-text">Данные об организации</p>
+					<p class="footer__semibold-text footer__semibold-text_information">Данные об организации</p>
 					<p class="footer__medium-text">Автономная некоммерческая организация Центр социальных инновационных технологий «ЗАМАН»</p>
 					<p class="footer__medium-text">ИНН 9701112541 КПП 770101001</p>
 					<p class="footer__medium-text">ОГРН 1187700010244</p>
-					<p class="footer__medium-text">р/с 40703810238000014372 БИК 044525225</p>
+					<div class="footer__medium-text-long">
+					<p class="footer__medium-text">р/с 40703810238000014372 </p>
+					<p class="footer__medium-text">БИК 044525225</p>
+				</div>
 					<p class="footer__medium-text">ПАО СберБанк к/с 30101810400000000225</p>
 					<p class="footer__medium-text">Юридический адрес: 105082 Москва,</p>
 					<p class="footer__medium-text">ул. Б. Почтовая, 18/20, корп. 11, кв. 65</p>
@@ -799,10 +797,10 @@
 	</div>
 <div class="popup popup_type_how-to-find" data-scroll-lock-scrollable>
 	<div class="popup__container popup__container-how-to-find" data-scroll-lock-scrollable>
-		<img src="<%=require('./vendor/images/how-to-find_place-photo_dekstop.jpg')%>" alt="Рисунок нашего ученика с нашим местоположением" class="popup__fullscreen-image how-to-find__place-photo">
+		<img src="<%=require('./vendor/images/how-to-find_place-photo_dekstop.jpg')%>" alt="Рисунок нашего ученика с нашим местоположением" class="popup__fullscreen-image">
 		<button type="button" class="popup__close-button-white" aria-label="Закрыть модальное окно."></button>
 	</div>
 </div>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=8d85ce6f-3c2a-430c-b9f4-4702060528e9" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=8d85ce6f-3c2a-430c-b9f4-4702060528e9"></script>
 </body>
 </html>

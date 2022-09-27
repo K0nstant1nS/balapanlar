@@ -17,11 +17,12 @@
 		max-width: 504px;
 		font-size: 40px;
 		line-height: 49px;
+		letter-spacing: -0.5px;
 		text-align: center;
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 	.horizontal-block__title {
 		font-size: 32px;
 		line-height: 39px;
