@@ -216,3 +216,7 @@
 @import url('../blocks/footer/__content/footer__content.css');
 @import url('../blocks/footer/__semibold-text_information/footer__semibold-text_information.css');
 @import url('../blocks/footer/__medium-text-long/footer__medium-text-long.css');
+
+/* course-card */
+
+@import url('../blocks/course-card/__list-item/popup/course-card__list-item_popup.css');
