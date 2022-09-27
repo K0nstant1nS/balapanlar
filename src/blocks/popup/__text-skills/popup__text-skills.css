@@ -7,7 +7,7 @@
 	font-size: 18px;
 	line-height: 21.94px;
 	column-gap: 54px;
-	list-style-image: url('../../../vendor/images/doneMark.svg');
+	list-style-image: url('../../../images/doneMark.svg');
 }
 
 @media screen and (max-width: 992px) {

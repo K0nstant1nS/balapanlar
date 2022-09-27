@@ -8,5 +8,5 @@
 
 .about__school-option:first-child {
 	margin-top: 0;
-	list-style-image: url('../../../vendor/images/locationMark.svg');
+	list-style-image: url('../../../images/locationMark.svg');
 }
