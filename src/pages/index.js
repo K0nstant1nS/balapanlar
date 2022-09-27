@@ -127,22 +127,25 @@ document
 	.querySelectorAll("[data-attribute-anchor]")
 	.forEach((link) => scrollToAnchor(link));
 // FAQ
-const faqQuestion = document.querySelectorAll('.faq-qst__button-area');
+const faqQuestion = document.querySelectorAll('.faq-qst__question');
 let previousQuestion;
 faqQuestion.forEach((element) => {element.addEventListener('click', () => { previousQuestion = toggleFaqQuestion(element);});});
 function toggleFaqQuestion (element) {
-	const answer = element.parentNode.parentNode.querySelector('.faq-qst__answer');
-	const icon = element.querySelector('.faq-qst__button');
+	const answer = element.parentNode.querySelector('.faq-qst__answer');
+	const icon = element.querySelector('.faq-qst__icon');
 	if (!answer.classList.contains('faq-qst__answer_opened')) {
 		answer.classList.add('faq-qst__answer_opened');
-		icon.classList.add('faq-qst__button_opened');
+		icon.classList.add('faq-qst__icon_opened');
+		element.classList.add('faq-qst__question_opened');
 		if (previousQuestion && previousQuestion != element) {
-			previousQuestion.parentNode.parentNode.querySelector('.faq-qst__answer').classList.remove('faq-qst__answer_opened');
-			previousQuestion.querySelector('.faq-qst__button').classList.remove('faq-qst__button_opened');
+			previousQuestion.parentNode.querySelector('.faq-qst__answer').classList.remove('faq-qst__answer_opened');
+			previousQuestion.querySelector('.faq-qst__icon').classList.remove('faq-qst__icon_opened');
+			previousQuestion.classList.remove('faq-qst__question_opened');
 		}
 	} else {
 		answer.classList.remove('faq-qst__answer_opened');
-		icon.classList.remove('faq-qst__button_opened');
+		icon.classList.remove('faq-qst__icon_opened');
+		element.classList.remove('faq-qst__question_opened');
 	}
 	return element;
 };

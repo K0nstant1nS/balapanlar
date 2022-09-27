@@ -5,7 +5,7 @@
 	border-radius: 60px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.faq-qst {
 		border-radius: 30px;
 	}

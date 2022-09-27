@@ -1,6 +1,7 @@
 .faq-qst__title {
+	grid-area: question;
 	margin: 0;
-	padding: 30px 30px 30px 0;
+	padding: 0;
 	color: rgba(37, 37, 37, 1);
 	font-weight: 600;
 	font-size: 24px;
@@ -10,9 +11,8 @@
 	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 	.faq-qst__title {
-		padding: 15px 15px 15px 0;
 		font-size: 18px;
 		line-height: 22px;
 	}
