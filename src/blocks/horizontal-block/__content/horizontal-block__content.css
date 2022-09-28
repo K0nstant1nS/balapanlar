@@ -38,6 +38,10 @@
 		align-items: center;
 		padding: 0 35px;
 	}
+
+	.horizontal-block:nth-of-type(2) .horizontal-block__text {
+		max-width: 437px;
+	}
 }
 
 @media screen and (max-width: 480px) {
