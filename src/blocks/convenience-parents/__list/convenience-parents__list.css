@@ -5,19 +5,25 @@
 	gap: 10px;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding-bottom: 182px;
+	padding: 0 0 182px;
 }
 
 @media (max-width: 1200px) {
 	.convenience-parents__list {
 		grid-template-columns: repeat(2, 1fr);
-		padding-bottom: 80px;
+		padding: 0 0 80px;
 	}
 }
 
 @media (max-width: 604px) {
 	.convenience-parents__list {
 		grid-template-columns: 1fr;
-		padding-bottom: 30px;
+		padding: 0 65px 30px;
+	}
+}
+
+@media (max-width: 480px) {
+	.convenience-parents__list {
+		padding: 0 0 30px;
 	}
 }
