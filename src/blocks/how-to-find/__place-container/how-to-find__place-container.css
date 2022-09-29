@@ -3,7 +3,7 @@
 	margin: 0;
 	overflow: hidden;
 	border-radius: 60px;
-	aspect-ratio: 1.13;
+	aspect-ratio: 1.14;
 }
 
 .how-to-find__place-container::before{
@@ -26,12 +26,12 @@
 
 @media screen and (max-width: 480px) {
 	.how-to-find__place-container {
-		border-radius: 20px;
+		border-radius: 30px;
 	}
 
 	.how-to-find__place-container::before {
-		bottom: -30px;
-		left: -462px;
+		bottom: -28px;
+		left: -480px;
 		content: '';
 		background-image: url('../../../images/die_thin.svg');
 	}
