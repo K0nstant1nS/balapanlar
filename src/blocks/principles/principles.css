@@ -1,6 +1,5 @@
 .principles {
 	display: flex;
-	display: none;
 	flex-wrap: nowrap;
 	justify-items: flex-start;
 	width: 300%;
