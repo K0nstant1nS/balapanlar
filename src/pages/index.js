@@ -36,14 +36,12 @@ partners.forEach((partner) => {
 	});
 });
 
-// Начала скрипта
-
 const howToFind = new PopupHowToFind('.popup_type_how-to-find')
 
 document.querySelector('.button_for_how-to-find').addEventListener('click',function(){
 	howToFind.open();
 })
-// Конец скрипта
+
 const principlesTweenData = {
 	selector: '.principles__card',
 	horizontalShift: false,
@@ -107,12 +105,10 @@ function resizeSeparator () {
 	separator.style.height = parseInt(document.querySelector('.principles').style.width.match(/\d+/))/4 + 'px';
 };
 
-
-
 document
 	.querySelectorAll('[data-attribute-anchor]')
 	.forEach((link) => scrollToAnchor(link));
-// FAQ
+
 const faqQuestion = document.querySelectorAll('.faq-qst__question');
 let previousQuestion;
 faqQuestion.forEach((element) => {element.addEventListener('click', () => { previousQuestion = toggleFaqQuestion(element);});});
