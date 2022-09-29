@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 480px) {
 	.popup__container-how-to-find {
-		max-width: calc(100% - 20px);
-		max-height: calc(100% - 20px);
+		max-width: calc(100% - 30px);
+		max-height: calc(100% - 30px);
 	}
 }
