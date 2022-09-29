@@ -21,6 +21,7 @@
 
 @media (max-width: 604px) {
 	.convenience-parents__item {
+		box-sizing: border-box;
 		align-items: center;
 		padding: 24px;
 		font-size: 24px;
