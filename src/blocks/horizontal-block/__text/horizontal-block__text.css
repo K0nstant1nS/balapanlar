@@ -25,9 +25,7 @@
 
 @media screen and (max-width: 480px) {
 	.horizontal-block__text {
-		max-width: 437px;
 		font-size: 18px;
 		line-height: 22px;
-		text-align: center;
 	}
 }
