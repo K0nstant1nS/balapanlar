@@ -2,6 +2,7 @@
 	display: grid;
 	justify-content: space-between;
 	align-content: end;
+	width: calc(100% - 200px);
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 80px 100px;
@@ -13,6 +14,7 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		align-items: center;
+		width: calc(100% - 100px);
 		padding: 80px 50px;
 	}
 }
@@ -21,6 +23,7 @@
 @media screen and (max-width: 520px) {
 	.footer__columns {
 		align-items: flex-start;
+		width: calc(100% - 30px);
 		padding: 20px 15px 80px;
 	}
 }
