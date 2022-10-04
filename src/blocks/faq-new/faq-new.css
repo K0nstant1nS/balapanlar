@@ -1,6 +1,6 @@
 .faq-new{
-	box-sizing: border-box;
-	width: 100%;
+	box-sizing: content-box;
+	width: calc(100% - 60px);
 	padding: 30px;
 	overflow: hidden;
 	border-radius: 60px;
@@ -13,4 +13,12 @@
 
 .faq-new:nth-child(even){
 	background-color: #eaf0ff;
+}
+
+@media all and (max-width: 320px){
+	.faq-new{
+		width: calc(100% - 30px);
+		padding: 15px;
+		border-radius: 30px;
+	}
 }
