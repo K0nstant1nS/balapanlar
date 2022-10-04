@@ -18,7 +18,7 @@
 	}
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 320px) {
 	.footer__medium-text {
 		text-align: start;
 	}

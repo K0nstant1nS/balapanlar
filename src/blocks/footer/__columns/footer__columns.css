@@ -13,12 +13,12 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		align-items: center;
-		padding: 80px 50px;
+		padding: 80px 75px;
 	}
 }
 
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 320px) {
 	.footer__columns {
 		align-items: flex-start;
 		padding: 20px 15px 80px;
