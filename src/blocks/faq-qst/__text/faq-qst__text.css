@@ -16,11 +16,19 @@
 
 @media all and (max-width: 768px){
 	.faq-qst__text{
-		padding: 16px 0 0 71px;
+		padding: 16px 0 0 70px;
 	}
 }
 
-@media all and (max-width: 320px){
+
+@media all and (max-width: 650px){
+	.faq-qst__text{
+		padding: 16px 0 0 50px;
+	}
+}
+
+
+@media all and (max-width: 520px){
 	.faq-qst__text{
 		padding: 10px 0 0 25px;
 		font-size: 18px;

@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0;
-	padding: 0 71px;
+	padding: 0 70px;
 	color: rgba(37, 37, 37, 1);
 	font-weight: 600;
 	font-size: 24px;
@@ -61,14 +61,34 @@
 
 @media all and (max-width: 768px){
 	.faq-qst__question{
-		padding: 0 0 0 71px;
+		padding: 0 0 0 70px;
 	}
 }
 
-@media all and (max-width: 320px){
+
+@media all and (max-width: 650px){
+	.faq-qst__question{
+		padding: 0 0 0 50px;
+	}
+}
+
+
+@media screen and (max-width: 520px) {
 	.faq-qst__question{
 		padding: 0 0 0 25px;
 		font-size: 18px;
 		line-height: 22px;
+	}
+
+	.faq-qst__question::after {
+		left: 3px;
+		width: 2px;
+		height: 8px;
+	}
+
+	.faq-qst__question::before {
+		top: 11px;
+		width: 8px;
+		height: 2px;
 	}
 }

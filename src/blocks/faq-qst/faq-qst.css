@@ -1,7 +1,7 @@
 .faq-qst{
 	box-sizing: content-box;
 	width: calc(100% - 60px);
-	padding: 30px;
+	padding: 32px;
 	overflow: hidden;
 	border-radius: 60px;
 	transition: all 0.3s ease-in-out;
@@ -15,7 +15,7 @@
 	background-color: #eaf0ff;
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 480px){
 	.faq-qst{
 		width: calc(100% - 30px);
 		padding: 15px;
