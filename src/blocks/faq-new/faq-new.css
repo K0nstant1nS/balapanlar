@@ -1,0 +1,16 @@
+.faq-new{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 30px;
+	overflow: hidden;
+	border-radius: 60px;
+	transition: all 0.3s ease-in-out;
+}
+
+.faq-new:nth-child(odd){
+	background-color: #eee8ff;
+}
+
+.faq-new:nth-child(even){
+	background-color: #eaf0ff;
+}

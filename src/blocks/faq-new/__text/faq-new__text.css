@@ -1,0 +1,15 @@
+.faq-new__text{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 16px 0 0;
+	padding: 0 71px;
+	color: rgba(37, 37, 37, 1);
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}

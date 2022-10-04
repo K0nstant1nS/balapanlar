@@ -220,3 +220,11 @@
 /* course-card */
 
 @import url('../blocks/course-card/__list-item/popup/course-card__list-item_popup.css');
+
+/* faq ver MO */
+
+@import url('../blocks/faq-new/faq-new.css');
+@import url('../blocks/faq-new/__question/faq-new__question.css');
+@import url('../blocks/faq-new/__question/_opened/faq-new__question_opened.css');
+@import url('../blocks/faq-new/__text/faq-new__text.css');
+@import url('../blocks/faq-new/__text/_show/faq-new__text_show.css');

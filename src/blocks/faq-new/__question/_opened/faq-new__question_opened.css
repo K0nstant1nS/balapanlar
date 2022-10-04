@@ -1,0 +1,7 @@
+.faq-new__question_opened::after {
+	transform: rotateZ(90deg);
+}
+
+.faq-new__question_opened::before {
+	transform: rotateZ(90deg) scale(0);
+}
