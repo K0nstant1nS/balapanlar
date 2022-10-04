@@ -1,10 +1,7 @@
-.faq-qst__question_opened {
-	padding: 30px 30px 16px;
-	transition: padding 0.3s 0.3s linear;
+.faq-qst__question_opened::after {
+	transform: rotateZ(90deg);
 }
 
-@media screen and (max-width: 520px) {
-	.faq-qst__question_opened {
-		padding: 15px 15px 10px;
-	}
+.faq-qst__question_opened::before {
+	transform: rotateZ(90deg) scale(0);
 }

@@ -15,7 +15,7 @@
 	}
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 320px) {
 	.footer__column-copyright {
 		max-width: 290px;
 		padding: 57px 0 0;
