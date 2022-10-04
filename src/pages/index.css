@@ -193,6 +193,7 @@
 @import url('../blocks/faq/__questions/faq__questions.css');
 @import url('../blocks/faq-qst/faq-qst.css');
 @import url('../blocks/faq-qst/__button/faq-qst__button.css');
+@import url('../blocks/faq-qst/__button/_active/faq-qst__button_active.css');
 @import url('../blocks/faq-qst/__question/faq-qst__question.css');
 @import url('../blocks/faq-qst/__question/_opened/faq-qst__question_opened.css');
 @import url('../blocks/faq-qst/__text/faq-qst__text.css');

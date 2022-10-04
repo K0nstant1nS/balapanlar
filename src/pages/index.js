@@ -110,6 +110,7 @@ document
 	.forEach((link) => scrollToAnchor(link));
 
 const faqQuestionOpened = ()=>document.querySelectorAll('.faq-qst_opened');
+const faqQuestions = ()=>document.querySelectorAll('.faq-qst');
 
 function hideFaqTexts(faq){
 	const answers = faq.querySelectorAll('.faq-qst__text');
@@ -129,6 +130,8 @@ function closeFaqs() {
 }
 
 function openFaq(faq) {
+	const button = faq.querySelector('.faq-qst__button');
+	button.classList.toggle('faq-qst__button_active');
 	if(!faq.classList.contains('faq-qst_opened')){
 		closeFaqs();
 		faq.classList.add('faq-qst_opened');
@@ -144,22 +147,37 @@ function openFaq(faq) {
 	}
 }
 
-function resizeFaq() {
+function getHeightsElem(element) {
+	const question = element.querySelector('.faq-qst__question');
+	const answers = element.querySelectorAll('.faq-qst__text');
+	let answersHeight = 0;
+	answers.forEach(answ => {
+		answersHeight += answ.offsetHeight;
+	});
+	return {qh: question.offsetHeight, ah: answersHeight};
+}
 
+function resizeFaq() {
+	faqQuestions().forEach(element => {
+		const heights = getHeightsElem(element);
+		element.dataset.qh = heights.qh;
+		element.dataset.ah = heights.ah;
+		button.style.height = `${heights.qh}px`;
+		if(!faq.classList.contains('faq-qst_opened')){
+			faq.style.height = `${parseInt(faq.dataset.qh) + parseInt(faq.dataset.ah)}px`;
+		}else{
+			faq.style.height = `${parseInt(faq.dataset.qh)}px`;
+		}
+	});
 }
 
 function initFaq() {
 	faqQuestionOpened().forEach(element => {
-		const question = element.querySelector('.faq-qst__question');
-		const answers = element.querySelectorAll('.faq-qst__text');
 		const button = element.querySelector('.faq-qst__button');
-		let answersHeight = 0;
-		answers.forEach(answ => {
-			answersHeight += answ.offsetHeight;
-		});
-		element.dataset.qh = question.offsetHeight;
-		element.dataset.ah = answersHeight;
-		button.style.height = `${question.offsetHeight}px`;
+		const heights = getHeightsElem(element);
+		element.dataset.qh = heights.qh;
+		element.dataset.ah = heights.ah;
+		button.style.height = `${heights.qh}px`;
 		button.addEventListener('click', ()=>openFaq(element));
 	});
 	closeFaqs();
