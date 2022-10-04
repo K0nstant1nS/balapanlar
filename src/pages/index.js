@@ -144,19 +144,26 @@ function openFaq(faq) {
 	}
 }
 
+function resizeFaq() {
+
+}
+
 function initFaq() {
 	faqQuestionOpened().forEach(element => {
 		const question = element.querySelector('.faq-qst__question');
 		const answers = element.querySelectorAll('.faq-qst__text');
-		let answerHeight = 0;
+		const button = element.querySelector('.faq-qst__button');
+		let answersHeight = 0;
 		answers.forEach(answ => {
-			answerHeight += answ.offsetHeight;
+			answersHeight += answ.offsetHeight;
 		});
 		element.dataset.qh = question.offsetHeight;
-		element.dataset.ah = answerHeight;
-		question.addEventListener('click', ()=>openFaq(element));
+		element.dataset.ah = answersHeight;
+		button.style.height = `${question.offsetHeight}px`;
+		button.addEventListener('click', ()=>openFaq(element));
 	});
 	closeFaqs();
 }
 
 initFaq();
+window.addEventListener('resize', () => resizeFaq);

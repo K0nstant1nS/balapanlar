@@ -1,4 +1,5 @@
 .faq-qst{
+	position: relative;
 	box-sizing: content-box;
 	width: calc(100% - 60px);
 	padding: 32px;
