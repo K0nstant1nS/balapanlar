@@ -109,34 +109,34 @@ document
 	.querySelectorAll('[data-attribute-anchor]')
 	.forEach((link) => scrollToAnchor(link));
 
-const faqQuestionOpened = ()=>document.querySelectorAll('.faq-new_opened');
+const faqQuestionOpened = ()=>document.querySelectorAll('.faq-qst_opened');
 
 function hideFaqTexts(faq){
-	const answers = faq.querySelectorAll('.faq-new__text');
+	const answers = faq.querySelectorAll('.faq-qst__text');
 	answers.forEach(element => {
-		element.classList.remove('faq-new__text_show');
+		element.classList.remove('faq-qst__text_show');
 	});
 }
 
 function closeFaqs() {
 	faqQuestionOpened().forEach(faq => {
-		faq.classList.toggle('faq-new_opened');
-		const question = faq.querySelector('.faq-new__question');
-		question.classList.remove('faq-new__question_opened');
+		faq.classList.toggle('faq-qst_opened');
+		const question = faq.querySelector('.faq-qst__question');
+		question.classList.remove('faq-qst__question_opened');
 		hideFaqTexts(faq);
 		faq.style.height = `${parseInt(faq.dataset.qh)}px`;
 	});
 }
 
 function openFaq(faq) {
-	if(!faq.classList.contains('faq-new_opened')){
+	if(!faq.classList.contains('faq-qst_opened')){
 		closeFaqs();
-		faq.classList.add('faq-new_opened');
-		const answers = faq.querySelectorAll('.faq-new__text');
-		const question = faq.querySelector('.faq-new__question');
-		question.classList.add('faq-new__question_opened');
+		faq.classList.add('faq-qst_opened');
+		const answers = faq.querySelectorAll('.faq-qst__text');
+		const question = faq.querySelector('.faq-qst__question');
+		question.classList.add('faq-qst__question_opened');
 		answers.forEach(element => {
-			element.classList.add('faq-new__text_show');
+			element.classList.add('faq-qst__text_show');
 		});
 		faq.style.height = `${parseInt(faq.dataset.qh) + parseInt(faq.dataset.ah)}px`;
 	}else{
@@ -146,8 +146,8 @@ function openFaq(faq) {
 
 function initFaq() {
 	faqQuestionOpened().forEach(element => {
-		const question = element.querySelector('.faq-new__question');
-		const answers = element.querySelectorAll('.faq-new__text');
+		const question = element.querySelector('.faq-qst__question');
+		const answers = element.querySelectorAll('.faq-qst__text');
 		let answerHeight = 0;
 		answers.forEach(answ => {
 			answerHeight += answ.offsetHeight;
