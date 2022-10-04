@@ -23,6 +23,7 @@
 @media screen and (max-width: 480px) {
 	.footer__columns {
 		align-items: flex-start;
+		align-items: center;
 		width: calc(100% - 30px);
 		padding: 20px 15px 80px;
 	}
