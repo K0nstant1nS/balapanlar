@@ -88,5 +88,5 @@ function initFaq() {
 	closeFaqs();
 }
 
-initFaq();
 window.addEventListener('resize', () => resizeFaq);
+window.addEventListener('load', ()=>initFaq());
