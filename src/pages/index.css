@@ -110,6 +110,7 @@
 
 /* horizontal-skroll */
 
+@import url('../blocks/tag/tag.css');
 @import url('../blocks/advantages/advantages.css');
 @import url('../blocks/advantages/__content/advantages__content.css');
 @import url('../blocks/advantages/__title/advantages__title.css');
@@ -118,7 +119,6 @@
 @import url('../blocks/advantages/__card-text/advantages__card-text.css');
 @import url('../blocks/advantages/__card-tags/advantages__card-tags.css');
 @import url('../blocks/advantages/__card-tag/advantages__card-tag.css');
-@import url('../blocks/tag/tag.css');
 
 /* convenience-parents */
 
