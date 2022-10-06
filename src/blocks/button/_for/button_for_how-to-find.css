@@ -15,6 +15,10 @@
 	cursor: pointer;
 }
 
+.button_for_how-to-find:hover{
+	background-color: #353535;
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
 	.button_for_how-to-find {
 		top: 20px;
