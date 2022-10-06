@@ -32,7 +32,7 @@
 	outline-offset: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 660px) {
 	.course-card__popup-button:focus-visible {
 		border-radius: 30px;
 		outline: 1px solid #252525;
