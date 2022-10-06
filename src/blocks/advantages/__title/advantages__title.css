@@ -2,6 +2,7 @@
 	width: calc(var(--width-title) / (var(--vw) * 100vw));
 	max-width: calc(var(--width-title) * 1px);
 	margin: 0;
+	padding-right: 22px;
 	font-weight: 600;
 	font-size: 60px;
 	line-height: 68px;
@@ -22,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
 	.advantages__title {
-		padding-bottom: 70px;
+		padding: 0 0 70px;
 		text-align: center;
 	}
 }

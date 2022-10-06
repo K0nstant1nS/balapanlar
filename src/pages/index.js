@@ -8,6 +8,8 @@ import { scrollToAnchor } from '../components/anchorLinkScroll.js';
 import { PopupHowToFind } from '../components/PopupHowToFind';
 import '../components/howToFindMap.js';
 
+//--- popupHeader ---
+
 const popupHeader = new PopupWithBurger('.popup_type_header');
 
 checkScreenWidth(popupHeader);
@@ -19,6 +21,8 @@ popupHeader.burgerButton.addEventListener(
 	popupHeader.toggleBurgerMenu
 );
 
+//--- popupCourses ---
+
 const popup = new PopupWithCourse('.popup_type_course');
 
 document.querySelectorAll('.course-card__popup-button').forEach((btn) => {
@@ -26,6 +30,8 @@ document.querySelectorAll('.course-card__popup-button').forEach((btn) => {
 		popup.open(btn.closest('.course-card').cloneNode(true).innerHTML);
 	});
 });
+
+//--- popupPartners ---
 
 const popupPartner = new PopupWithPartner('.popup_type_partner');
 
@@ -41,6 +47,8 @@ const howToFind = new PopupHowToFind('.popup_type_how-to-find')
 document.querySelector('.button_for_how-to-find').addEventListener('click',function(){
 	howToFind.open();
 })
+
+// --- HorizontalScroll settings objects ---
 
 const principlesTweenData = {
 	selector: ".principles",
@@ -74,6 +82,7 @@ const advantagesTweenData = {
 	pinState: true,
 };
 
+// --- horizontalScroll init ---
 
 const principlesTween = new Tween(principlesTweenData);
 const principlesHeadingTween = new Tween(principlesHeadingTweenData);
@@ -87,22 +96,11 @@ window.addEventListener("resize", principlesTween.toggleTween);
 window.addEventListener("resize", principlesHeadingTween.toggleTween);
 window.addEventListener("resize", advantagesTween.toggleTween);
 
-window.addEventListener('resize', () => {
-	principlesTween.toggleTween;
-	window.location.reload();
-});
-window.addEventListener('resize', () => {
-	principlesHeadingTween.toggleTween;
-	window.location.reload();
-});
-window.addEventListener('resize', () => {
-	advantagesTween.toggleTween;
-	window.location.reload();
-});
-
 document
 	.querySelectorAll('[data-attribute-anchor]')
 	.forEach((link) => scrollToAnchor(link));
+
+//--- faqButtons open/close ---
 
 const faqQuestionOpened = ()=>document.querySelectorAll('.faq-qst_opened');
 const faqQuestions = ()=>document.querySelectorAll('.faq-qst');
