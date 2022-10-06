@@ -1,0 +1,28 @@
+.advantages__card-heading {
+	margin: 0;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: -1px;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 980px) {
+	.advantages__card-heading {
+		font-size: 40px;
+		line-height: 49px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.advantages__card-heading {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.advantages__card-heading {
+		font-size: 24px;
+		line-height: 29px;
+	}
+}

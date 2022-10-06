@@ -1,29 +1,27 @@
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
 class Tween {
 	constructor(tweenData) {
 		this.data = tweenData;
-		let sections = gsap.utils.toArray(tweenData.selector);
-		this.tween = gsap.to(sections, {
-			xPercent: tweenData.horizontalShift || -100 * (sections.length - 1) - this.data.horizontalShift,
-			ease: 'none',
+		this.tween = gsap.to(tweenData.selector, {
+			xPercent: tweenData.horizontalShift,
+			ease: "none",
 			scrollTrigger: {
-				start: tweenData.start,
 				trigger: this.data.triggerSelector,
-				pin: true,
+				pin: tweenData.pinState,
+				start: tweenData.start || 'top top',
 				scrub: 1,
-				snap: 0,
-				end: () => '+=' + document.querySelector(this.data.triggerSelector).offsetWidth/4,
-				invalidateOnRefresh: true
+				snap: tweenData.snap,
+				end: "bottom",
 			},
 		});
 	}
 
 	toggleTween = () => {
-		if (window.innerWidth <= this.data.tabletWidth) {
+		if (window.innerWidth <= 768) {
 			this.tween.scrollTrigger.disable();
 		} else {
 			this.tween.scrollTrigger.enable();
