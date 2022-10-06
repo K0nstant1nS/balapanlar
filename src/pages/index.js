@@ -52,33 +52,33 @@ document.querySelector('.button_for_how-to-find').addEventListener('click',funct
 // --- HorizontalScroll settings objects ---
 
 const principlesTweenData = {
-	selector: ".principles",
+	selector: '.principles',
 	horizontalShift: -66.66666666,
-	triggerSelector: ".principles",
-	start: "80px top",
+	triggerSelector: '.principles',
+	start: '80px top',
 	snap: .5,
 	pinState: true,
 };
 
 const principlesHeadingTweenData = {
-	selector: ".principles__heading",
+	selector: '.principles__heading',
 	horizontalShift: 66.66666666,
-	triggerSelector: ".principles",
-	start: "80px top",
+	triggerSelector: '.principles',
+	start: '80px top',
 	snap: .5,
 	pinState: false,
 };
 
 let cardsWidthSum = 0
-document.querySelectorAll(".advantages__card").forEach(function(item){
+document.querySelectorAll('.advantages__card').forEach(function(item){
 	cardsWidthSum += item.offsetWidth;
 })
-const advantagesPadding = parseInt(window.getComputedStyle(document.querySelector(".advantages")).paddingLeft)
-const advantagesWidth = cardsWidthSum + document.querySelector(".advantages__title").offsetWidth + advantagesPadding + 40*4;
+const advantagesPadding = parseInt(window.getComputedStyle(document.querySelector('.advantages')).paddingLeft)
+const advantagesWidth = cardsWidthSum + document.querySelector('.advantages__title').offsetWidth + advantagesPadding + 40*4;
 const advantagesTweenData = {
-	selector: ".advantages__content",
+	selector: '.advantages__content',
 	horizontalShift: -100 * (1 - window.innerWidth / (advantagesWidth + window.innerWidth/1.5)),
-	triggerSelector: ".advantages",
+	triggerSelector: '.advantages',
 	start: 'center center',
 	pinState: true,
 };
@@ -93,9 +93,9 @@ principlesTween.toggleTween();
 principlesHeadingTween.toggleTween();
 advantagesTween.toggleTween();
 
-window.addEventListener("resize", principlesTween.toggleTween);
-window.addEventListener("resize", principlesHeadingTween.toggleTween);
-window.addEventListener("resize", advantagesTween.toggleTween);
+window.addEventListener('resize', principlesTween.toggleTween);
+window.addEventListener('resize', principlesHeadingTween.toggleTween);
+window.addEventListener('resize', advantagesTween.toggleTween);
 
 document
 	.querySelectorAll('[data-attribute-anchor]')
