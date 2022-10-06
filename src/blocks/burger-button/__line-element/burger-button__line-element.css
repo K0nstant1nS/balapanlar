@@ -3,7 +3,7 @@
 	display: block;
 	width: 30px;
 	height: 2px;
-	background-color: #000000;
+	background-color: #252525;
 	border-radius: 50px;
 	transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
 }
