@@ -19,32 +19,34 @@
 .faq-qst__question::after {
 	position: absolute;
 	top: 8px;
-	left: 5px;
+	left: 4px;
 	display: block;
-	width: 2px;
-	height: 12px;
+	width: 0.12em;
+	height: 0.45em;
 	margin: 0;
 	padding: 0;
 	content: '';
 	background-color: rgba(37, 37, 37, 1);
 	border: none;
 	border-radius: 20%;
+	transform: scale(1.01);
 	transition: transform 0.3s linear;
 }
 
 .faq-qst__question::before {
 	position: absolute;
-	top: 13px;
+	top: 12px;
 	left: 0;
 	display: block;
-	width: 12px;
-	height: 2px;
+	width: 0.45em;
+	height: 0.12em;
 	margin: 0;
 	padding: 0;
 	content: '';
 	background-color: rgba(37, 37, 37, 1);
 	border: none;
 	border-radius: 20%;
+	transform: scale(1.01);
 	transition: transform 0.3s linear;
 }
 

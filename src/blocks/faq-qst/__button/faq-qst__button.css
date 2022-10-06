@@ -9,6 +9,7 @@
 	border: 0;
 	border-radius: 60px;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 @media all and (max-width: 480px){

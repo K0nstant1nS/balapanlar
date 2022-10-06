@@ -29,7 +29,7 @@ export class PopupWithBurger extends Popup {
 			!evt.target.classList.contains('burger-button') &&
 			!evt.target.classList.contains('burger-button__line-element')
 		) {
-			setTimeout(() => {this.close()}, 100);
+			setTimeout(() => {this.close()}, 200);
 		}
 	};
 
