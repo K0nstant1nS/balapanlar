@@ -21,6 +21,11 @@
 	border: 0;
 }
 
+.button:focus {
+	outline: 2px solid white;
+	outline-offset: -4px;
+}
+
 @keyframes swing {
 	0% {
 		transform: rotate(0);
