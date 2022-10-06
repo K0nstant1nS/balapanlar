@@ -1,5 +1,6 @@
 const faqQuestionOpened = ()=>document.querySelectorAll('.faq-qst_opened');
 const faqQuestions = document.querySelectorAll('.faq-qst');
+let focusable = true;
 
 function hideFaqTexts(faq){
 	const answers = faq.querySelectorAll('.faq-qst__text');
@@ -76,6 +77,14 @@ function resizeFaq() {
 	});
 }
 
+function focusFaqButton(element, status){
+	if(!focusable||!status){
+		element.classList.remove('faq-qst_focused');
+	}else{
+		element.classList.add('faq-qst_focused');
+	}
+}
+
 function initFaq() {
 	faqQuestionOpened().forEach(element => {
 		const button = element.querySelector('.faq-qst__button');
@@ -83,7 +92,16 @@ function initFaq() {
 		element.dataset.qh = heights.qh;
 		element.dataset.ah = heights.ah;
 		button.style.height = `${heights.qh}px`;
-		button.addEventListener('click', ()=>openFaq(element));
+		button.addEventListener('pointerdown', ()=>{
+			focusable=false;
+			focusFaqButton(element, false)
+		});
+		button.addEventListener('click', ()=>{
+			focusable=true;
+			openFaq(element);
+		});
+		button.addEventListener('focus', (ev)=>{focusFaqButton(element, true);});
+		button.addEventListener('blur', ()=>focusFaqButton(element, false));
 	});
 	closeFaqs();
 }
