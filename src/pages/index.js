@@ -8,6 +8,8 @@ import { scrollToAnchor } from '../components/anchorLinkScroll.js';
 import { PopupHowToFind } from '../components/PopupHowToFind';
 import '../components/howToFindMap.js';
 
+//--- popupHeader ---
+
 const popupHeader = new PopupWithBurger('.popup_type_header');
 
 checkScreenWidth(popupHeader);
@@ -19,6 +21,8 @@ popupHeader.burgerButton.addEventListener(
 	popupHeader.toggleBurgerMenu
 );
 
+//--- popupCourses ---
+
 const popup = new PopupWithCourse('.popup_type_course');
 
 document.querySelectorAll('.course-card__popup-button').forEach((btn) => {
@@ -26,6 +30,8 @@ document.querySelectorAll('.course-card__popup-button').forEach((btn) => {
 		popup.open(btn.closest('.course-card').cloneNode(true).innerHTML);
 	});
 });
+
+//--- popupPartners ---
 
 const popupPartner = new PopupWithPartner('.popup_type_partner');
 
@@ -42,72 +48,59 @@ document.querySelector('.button_for_how-to-find').addEventListener('click',funct
 	howToFind.open();
 })
 
+// --- HorizontalScroll settings objects ---
+
 const principlesTweenData = {
-	selector: '.principles__card',
-	horizontalShift: false,
-	triggerSelector: '.principles',
+	selector: ".principles",
+	horizontalShift: -66.66666666,
+	triggerSelector: ".principles",
+	start: "80px top",
+	snap: .5,
 	pinState: true,
-	tabletWidth: 768,
-	start: '80px top',
-	end: 'right'
 };
 
 const principlesHeadingTweenData = {
-	selector: '.principles__heading',
-	horizontalShift: false,
-	triggerSelector: '.principles',
+	selector: ".principles__heading",
+	horizontalShift: 66.66666666,
+	triggerSelector: ".principles",
+	start: "80px top",
+	snap: .5,
 	pinState: false,
-	tabletWidth: 768,
-	start: '80px top',
-	end: 'right '
 };
 
-
-const horizontalContainerTweenData = {
-	selector: '.horizontal-container__content',
-	horizontalShift: -(1 - (document.querySelector('.horizontal-container').clientWidth/5885))*100 - (window.innerWidth - 1000)/200 ,
-	triggerSelector: '.horizontal-container__content',
+let cardsWidthSum = 0
+document.querySelectorAll(".advantages__card").forEach(function(item){
+	cardsWidthSum += item.offsetWidth;
+})
+const advantagesPadding = parseInt(window.getComputedStyle(document.querySelector(".advantages")).paddingLeft)
+const advantagesWidth = cardsWidthSum + document.querySelector(".advantages__title").offsetWidth + advantagesPadding + 40*4;
+const advantagesTweenData = {
+	selector: ".advantages__content",
+	horizontalShift: -100 * (1 - window.innerWidth / (advantagesWidth + window.innerWidth/1.5)),
+	triggerSelector: ".advantages",
+	start: 'center center',
 	pinState: true,
-	snap: 0,
-	tabletWidth: 768,
-	start:  'left',
-	end: 'bottom'
 };
 
+// --- horizontalScroll init ---
 
-const horizontalContainerTween = new Tween(horizontalContainerTweenData);
 const principlesTween = new Tween(principlesTweenData);
 const principlesHeadingTween = new Tween(principlesHeadingTweenData);
-const separator = document.querySelector('.animation-separator');
+const advantagesTween = new Tween(advantagesTweenData);
 
 principlesTween.toggleTween();
 principlesHeadingTween.toggleTween();
-horizontalContainerTween.toggleTween();
-resizeSeparator();
+advantagesTween.toggleTween();
 
-window.addEventListener('resize', () => {
-	principlesTween.toggleTween;
-	resizeSeparator();
-	window.location.reload();
-});
-window.addEventListener('resize', () => {
-	principlesHeadingTween.toggleTween;
-	resizeSeparator();
-	window.location.reload();
-});
-window.addEventListener('resize', () => {
-	horizontalContainerTween.toggleTween;
-	resizeSeparator();
-	window.location.reload();
-});
-
-function resizeSeparator () {
-	separator.style.height = parseInt(document.querySelector('.principles').style.width.match(/\d+/))/4 + 'px';
-};
+window.addEventListener("resize", principlesTween.toggleTween);
+window.addEventListener("resize", principlesHeadingTween.toggleTween);
+window.addEventListener("resize", advantagesTween.toggleTween);
 
 document
 	.querySelectorAll('[data-attribute-anchor]')
 	.forEach((link) => scrollToAnchor(link));
+
+//--- faqButtons open/close ---
 
 const faqQuestionOpened = ()=>document.querySelectorAll('.faq-qst_opened');
 const faqQuestions = ()=>document.querySelectorAll('.faq-qst');
