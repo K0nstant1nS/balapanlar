@@ -23,7 +23,7 @@
 	width: 100%;
 }
 
-.header__link:focus {
+.header__link:focus-visible {
 	border-radius: 60px;
 	outline: 2px solid #252525;
 	outline-offset: 13px;

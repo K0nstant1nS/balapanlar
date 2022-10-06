@@ -10,6 +10,10 @@
 	background-color: #ff8540;
 }
 
+.button_for_lead:focus-visible {
+	outline: 2px solid white;
+}
+
 @media screen and (max-width: 430px) {
 	.button_for_lead {
 		padding: 16px 22px;
