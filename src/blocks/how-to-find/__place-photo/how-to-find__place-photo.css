@@ -4,6 +4,11 @@
 	border-radius: 60px;
 	object-position: top;
 	object-fit: cover;
+	-ms-filter: brightness(95%);
+	-webkit-filter: brightness(95%);
+	-moz-filter: brightness(95%);
+	-o-filter: brightness(95%);
+	filter: brightness(95%);
 }
 
 @media screen and (max-width: 768px) {

@@ -213,3 +213,7 @@
 /* course-card */
 
 @import url('../blocks/course-card/__list-item/popup/course-card__list-item_popup.css');
+
+/* ymaps-2-1-79-ground-pane */
+
+@import url('../blocks/ymaps-2-1-79-ground-pane/ymaps-2-1-79-ground-pane.css');
