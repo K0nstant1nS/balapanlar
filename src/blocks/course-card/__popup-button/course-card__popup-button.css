@@ -29,7 +29,7 @@
 .course-card__popup-button:focus-visible {
 	border-radius: 60px;
 	outline: 2px solid #252525;
-	outline-offset: 18px;
+	outline-offset: 22px;
 }
 
 @media screen and (max-width: 660px) {
