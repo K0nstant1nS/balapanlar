@@ -20,6 +20,10 @@
 		height: 148px;
 		margin-bottom: 60px;
 	}
+
+	.no-js .logo_type_header-animals {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 480px) {

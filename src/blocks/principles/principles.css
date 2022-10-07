@@ -32,3 +32,9 @@
 		border-radius: 30px;
 	}
 }
+
+.no-js .principles {
+	position: relative;
+	flex-direction: column;
+	width: 100%;
+}

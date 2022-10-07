@@ -1,4 +1,4 @@
-.faq-qst__text{
+.faq-qst__text {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0;
@@ -14,24 +14,28 @@
 	transition: opacity 0.3s ease-in-out;
 }
 
-@media all and (max-width: 768px){
-	.faq-qst__text{
+@media all and (max-width: 768px) {
+	.faq-qst__text {
 		padding: 16px 0 0 70px;
 	}
 }
 
 
-@media all and (max-width: 650px){
-	.faq-qst__text{
+@media all and (max-width: 650px) {
+	.faq-qst__text {
 		padding: 16px 0 0 50px;
 	}
 }
 
 
-@media all and (max-width: 520px){
-	.faq-qst__text{
+@media all and (max-width: 520px) {
+	.faq-qst__text {
 		padding: 10px 0 0 25px;
 		font-size: 18px;
 		line-height: 22px;
 	}
+}
+
+.no-js .faq-qst__text {
+	display: none;
 }

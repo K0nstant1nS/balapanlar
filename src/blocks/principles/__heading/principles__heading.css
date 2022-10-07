@@ -40,6 +40,11 @@
 		line-height: 37px;
 		letter-spacing: -0.5px;
 	}
+
+	.no-js .principles__heading {
+		left: calc(50% - 132px);
+		margin: 0;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -48,4 +53,16 @@
 		font-size: 24px;
 		line-height: 29px;
 	}
+
+	.no-js .principles__heading {
+		left: calc(50% - 100px);
+		margin: 0;
+	}
+}
+
+.no-js .principles__heading {
+	position: absolute;
+	top: 70px;
+	left: calc(50% - 157px);
+	width: auto;
 }

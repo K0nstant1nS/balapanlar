@@ -9,6 +9,10 @@ import { PopupHowToFind } from '../components/PopupHowToFind';
 import '../components/howToFindMap.js';
 import '../components/faq.js';
 
+//--- no-js ---
+
+document.querySelector("html").classList.remove("no-js");
+
 //--- popupHeader ---
 
 const popupHeader = new PopupWithBurger('.popup_type_header');
