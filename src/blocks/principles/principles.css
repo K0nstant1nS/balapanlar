@@ -1,4 +1,6 @@
 .principles {
+	position: relative;
+	z-index: 1;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-items: flex-start;
