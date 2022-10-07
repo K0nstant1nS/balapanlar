@@ -40,3 +40,8 @@
 		padding: 30px 10px;
 	}
 }
+
+.no-js .advantages__content {
+	flex-direction: column;
+	width: 100%;
+}

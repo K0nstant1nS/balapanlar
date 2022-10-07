@@ -2,3 +2,7 @@
 	width: 100%;
 	background-color: #ffffff;
 }
+
+.no-js .advantages {
+	padding-top: 120px;
+}

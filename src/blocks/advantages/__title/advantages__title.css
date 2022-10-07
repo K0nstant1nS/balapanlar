@@ -35,3 +35,9 @@
 		line-height: 44px;
 	}
 }
+
+.no-js .advantages__title {
+	align-self: center;
+	padding: 0;
+	text-align: center;
+}
