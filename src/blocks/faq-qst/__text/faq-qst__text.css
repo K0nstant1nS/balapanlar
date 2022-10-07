@@ -37,5 +37,5 @@
 }
 
 .no-js .faq-qst__text {
-	display: none;
+	opacity: 1;
 }
