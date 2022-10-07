@@ -1,5 +1,5 @@
 import './index.css';
-import { PopupWithCourse } from '../components/PopupWithCourse.js';
+/*import { PopupWithCourse } from '../components/PopupWithCourse.js';
 import { PopupWithPartner } from '../components/PopupWithPartner.js';
 import { PopupWithBurger } from '../components/PopupWithBurger.js';
 import { checkScreenWidth } from '../components/headerState.js';
@@ -100,3 +100,4 @@ window.addEventListener("resize", advantagesTween.toggleTween);
 document
 	.querySelectorAll('[data-attribute-anchor]')
 	.forEach((link) => scrollToAnchor(link));
+*/

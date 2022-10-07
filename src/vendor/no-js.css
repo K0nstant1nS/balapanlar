@@ -1,0 +1,46 @@
+.no-js .principles {
+    flex-direction: column;
+    width: 100%;
+}
+
+.no-js .principles {
+    position: relative;
+}
+
+.no-js .principles__heading {
+    width: auto;
+    position: absolute;
+    left: calc(50% - 157px);
+    top: 70px;
+}
+
+.principles__pic {
+    margin-top: 120px;
+}
+
+.no-js .advantages__content {
+    flex-direction: column;
+    width: 100%;
+}
+
+.no-js .advantages {
+    padding-top: 120px;
+}
+
+.no-js .advantages__title {
+    padding: 0;
+    align-self: center;
+    text-align: center;
+}
+
+.no-js .faq-qst__text {
+    display: none;
+}
+
+@media screen and (max-width: 1110px) {
+    .logo_type_header-animals {
+        margin: 0;
+        max-height: 30px;
+        max-width: 30px;
+    }
+}
