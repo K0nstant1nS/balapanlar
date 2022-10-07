@@ -1,6 +1,7 @@
 const faqQuestionOpened = ()=>document.querySelectorAll('.faq-qst_opened');
 const faqQuestions = document.querySelectorAll('.faq-qst');
 let focusable = true;
+let resizeId;
 
 function hideFaqTexts(faq){
 	const answers = faq.querySelectorAll('.faq-qst__text');
@@ -21,7 +22,7 @@ function setTabUrl(urls, status){
 
 function closeFaqs() {
 	faqQuestionOpened().forEach(faq => {
-		faq.classList.toggle('faq-qst_opened');
+		faq.classList.remove('faq-qst_opened');
 		const question = faq.querySelector('.faq-qst__question');
 		const urls = faq.querySelectorAll('.faq-qst__email');
 		const button = faq.querySelector('.faq-qst__button');
@@ -63,18 +64,27 @@ function getHeightsElem(element) {
 	return {qh: question.offsetHeight, ah: answersHeight};
 }
 
+function buttonsBlur(){
+	const buttons = document.querySelectorAll('.faq-qst__button');
+	buttons.forEach(element => {
+		element.blur();
+	});
+}
+
 function resizeFaq() {
-	faqQuestions().forEach(element => {
+	faqQuestions.forEach(element => {
+		const button = element.querySelector('.faq-qst__button');
 		const heights = getHeightsElem(element);
 		element.dataset.qh = heights.qh;
 		element.dataset.ah = heights.ah;
 		button.style.height = `${heights.qh}px`;
-		if(!faq.classList.contains('faq-qst_opened')){
-			faq.style.height = `${parseInt(faq.dataset.qh) + parseInt(faq.dataset.ah)}px`;
+		if(element.classList.contains('faq-qst_opened')){
+			element.style.height = `${parseInt(element.dataset.qh) + parseInt(element.dataset.ah)}px`;
 		}else{
-			faq.style.height = `${parseInt(faq.dataset.qh)}px`;
+			element.style.height = `${parseInt(element.dataset.qh)}px`;
 		}
 	});
+	buttonsBlur();
 }
 
 function focusFaqButton(element, status){
@@ -100,11 +110,14 @@ function initFaq() {
 			focusable=true;
 			openFaq(element);
 		});
-		button.addEventListener('focus', (ev)=>{focusFaqButton(element, true);});
+		button.addEventListener('focus', ()=>focusFaqButton(element, true));
 		button.addEventListener('blur', ()=>focusFaqButton(element, false));
 	});
 	closeFaqs();
 }
 
-window.addEventListener('resize', () => resizeFaq);
 window.addEventListener('load', ()=>initFaq());
+window.addEventListener('resize', function() {
+		clearTimeout(resizeId);
+		resizeId = setTimeout(resizeFaq, 500);
+});
