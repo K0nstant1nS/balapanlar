@@ -70,15 +70,13 @@
 	}
 
 	.faq-qst__question::after {
-		top: 5px;
-		left: 5.5px;
-		width: 0.17em;
-		height: 0.7em;
+		top: 7px;
+		left: 2.5px;
+		height: 0.51em;
 	}
 
 	.faq-qst__question::before {
 		top: 9.5px;
-		width: 0.7em;
-		height: 0.17em;
+		width: 0.51em;
 	}
 }
