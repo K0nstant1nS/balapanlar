@@ -22,7 +22,7 @@
 	left: 6px;
 	display: block;
 	width: 0.17em;
-	height: 0.7em;
+	height: 0.75em;
 	margin: 0;
 	padding: 0;
 	content: '';
@@ -35,10 +35,10 @@
 
 .faq-qst__question::before {
 	position: absolute;
-	top: 12px;
-	left: 0;
+	top: 12.1px;
+	left: -0.9px;
 	display: block;
-	width: 0.7em;
+	width: 0.75em;
 	height: 0.17em;
 	margin: 0;
 	padding: 0;
