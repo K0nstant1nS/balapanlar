@@ -190,10 +190,11 @@
 @import url('../blocks/faq-qst/__button/faq-qst__button.css');
 @import url('../blocks/faq-qst/__button/_active/faq-qst__button_active.css');
 @import url('../blocks/faq-qst/__question/faq-qst__question.css');
-@import url('../blocks/faq-qst/__question/_opened/faq-qst__question_opened.css');
 @import url('../blocks/faq-qst/__text/faq-qst__text.css');
 @import url('../blocks/faq-qst/__text/_show/faq-qst__text_show.css');
 @import url('../blocks/faq-qst/__email/faq-qst__email.css');
+@import url('../blocks/faq-qst/__plus/faq-qst__plus.css');
+@import url('../blocks/faq-qst/__plus/_opened/faq-qst__plus_opened.css');
 
 /* footer */
 

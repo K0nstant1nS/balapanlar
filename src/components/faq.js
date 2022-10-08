@@ -23,10 +23,10 @@ function setTabUrl(urls, status){
 function closeFaqs() {
 	faqQuestionOpened().forEach(faq => {
 		faq.classList.remove('faq-qst_opened');
-		const question = faq.querySelector('.faq-qst__question');
+		const plus = faq.querySelector('.faq-qst__plus');
 		const urls = faq.querySelectorAll('.faq-qst__email');
 		const button = faq.querySelector('.faq-qst__button');
-		question.classList.remove('faq-qst__question_opened');
+		plus.classList.remove('faq-qst__plus_opened');
 		button.classList.remove('faq-qst__button_active');
 		setTabUrl(urls, false);
 		hideFaqTexts(faq);
@@ -39,12 +39,12 @@ function openFaq(faq) {
 		closeFaqs();
 		faq.classList.add('faq-qst_opened');
 		const answers = faq.querySelectorAll('.faq-qst__text');
-		const question = faq.querySelector('.faq-qst__question');
+		const plus = faq.querySelector('.faq-qst__plus');
 		const button = faq.querySelector('.faq-qst__button');
 		const urls = faq.querySelectorAll('.faq-qst__email');
 		setTabUrl(urls, true);
 		button.classList.add('faq-qst__button_active');
-		question.classList.add('faq-qst__question_opened');
+		plus.classList.add('faq-qst__plus_opened');
 		answers.forEach(element => {
 			element.classList.add('faq-qst__text_show');
 		});
