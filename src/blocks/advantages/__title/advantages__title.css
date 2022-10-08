@@ -30,9 +30,14 @@
 
 @media screen and (max-width: 600px) {
 	.advantages__title {
-		padding-bottom: 20px;
 		font-size: 36px;
 		line-height: 44px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.advantages__title {
+		padding-bottom: 20px;
 	}
 }
 
