@@ -10,6 +10,7 @@
 	position: absolute;
 	bottom: -25px;
 	left: -415px;
+	z-index: 1;
 	width: 800px;
 	height: 244px;
 	content: '';
