@@ -36,6 +36,7 @@
 @import url('../blocks/popup/__container/_opened/popup__container_opened.css');
 @import url('../blocks/popup/_opened/popup_opened.css');
 @import url('../blocks/popup/__close-button/popup__close-button.css');
+@import url('../blocks/popup/__close-button/_color/popup__close-button_color_white.css');
 @import url('../blocks/popup/__map/popup__map.css');
 @import url('../blocks/popup/__content/popup__content.css');
 @import url('../blocks/popup/__content/_type/popup__content_type_courses.css');
@@ -159,7 +160,6 @@
 @import url('../blocks/how-to-find/__place-photo/how-to-find__place-photo.css');
 @import url('../blocks/button/_for/button_for_how-to-find.css');
 @import url('../blocks/popup/__fullscreen-image/popup__fullscreen-image.css');
-@import url('../blocks/popup/__close-button-white/popup__close-button-white.css');
 @import url('../blocks/popup/__container-how-to-find/popup__container-how-to-find.css');
 
 /* support-us */
