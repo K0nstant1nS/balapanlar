@@ -88,18 +88,19 @@ const advantagesTweenData = {
 };
 
 // --- horizontalScroll init ---
+if (window.innerWidth > 768) {
+	const principlesTween = new Tween(principlesTweenData);
+	const principlesHeadingTween = new Tween(principlesHeadingTweenData);
+	const advantagesTween = new Tween(advantagesTweenData);
 
-const principlesTween = new Tween(principlesTweenData);
-const principlesHeadingTween = new Tween(principlesHeadingTweenData);
-const advantagesTween = new Tween(advantagesTweenData);
+	principlesTween.toggleTween();
+	principlesHeadingTween.toggleTween();
+	advantagesTween.toggleTween();
+};
 
-principlesTween.toggleTween();
-principlesHeadingTween.toggleTween();
-advantagesTween.toggleTween();
-
-window.addEventListener('resize', principlesTween.toggleTween);
-window.addEventListener('resize', principlesHeadingTween.toggleTween);
-window.addEventListener('resize', advantagesTween.toggleTween);
+window.addEventListener('resize', () => {
+	document.location.reload();
+});
 
 document
 	.querySelectorAll('[data-attribute-anchor]')
