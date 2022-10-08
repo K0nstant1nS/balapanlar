@@ -55,37 +55,37 @@ document.querySelector('.button_for_how-to-find').addEventListener('click',funct
 
 // --- HorizontalScroll settings objects ---
 
-const principlesTweenData = {
-	selector: '.principles',
-	horizontalShift: -66.66666666,
-	triggerSelector: '.principles',
-	start: '80px top',
-	snap: .5,
-	pinState: true,
-};
+	const principlesTweenData = {
+		selector: '.principles',
+		horizontalShift: -66.66666666,
+		triggerSelector: '.principles',
+		start: '80px top',
+		snap: .5,
+		pinState: true,
+	};
 
-const principlesHeadingTweenData = {
-	selector: '.principles__heading',
-	horizontalShift: 66.66666666,
-	triggerSelector: '.principles',
-	start: '80px top',
-	snap: .5,
-	pinState: false,
-};
+	const principlesHeadingTweenData = {
+		selector: '.principles__heading',
+		horizontalShift: 66.66666666,
+		triggerSelector: '.principles',
+		start: '80px top',
+		snap: .5,
+		pinState: false,
+	};
 
-let cardsWidthSum = 0
-document.querySelectorAll('.advantages__card').forEach(function(item){
-	cardsWidthSum += item.offsetWidth;
-})
-const advantagesPadding = parseInt(window.getComputedStyle(document.querySelector('.advantages')).paddingLeft)
-const advantagesWidth = cardsWidthSum + document.querySelector('.advantages__title').offsetWidth + advantagesPadding + 40*4;
-const advantagesTweenData = {
-	selector: '.advantages__content',
-	horizontalShift: -100 * (1 - window.innerWidth / (advantagesWidth + window.innerWidth/1.5)),
-	triggerSelector: '.advantages',
-	start: 'center center',
-	pinState: true,
-};
+	let cardsWidthSum = 0
+	document.querySelectorAll('.advantages__card').forEach(function(item){
+		cardsWidthSum += item.offsetWidth;
+	})
+	const advantagesPadding = parseInt(window.getComputedStyle(document.querySelector('.advantages')).paddingLeft)
+	const advantagesWidth = cardsWidthSum + document.querySelector('.advantages__title').offsetWidth + advantagesPadding + 40*4;
+	const advantagesTweenData = {
+		selector: '.advantages__content',
+		horizontalShift: -100 * (1 - window.innerWidth / (advantagesWidth + window.innerWidth/1.5)),
+		triggerSelector: '.advantages',
+		start: 'center center',
+		pinState: true,
+	};
 
 // --- horizontalScroll init ---
 if (window.innerWidth > 768) {
@@ -98,8 +98,13 @@ if (window.innerWidth > 768) {
 	advantagesTween.toggleTween();
 };
 
+var cachedWidth = window.innerWidth;
+
 window.addEventListener('resize', () => {
-	document.location.reload();
+	if (cachedWidth != window.innerWidth)	{
+		document.location.reload();
+		cachedWidth = window.innerWidth;
+	};
 });
 
 document
