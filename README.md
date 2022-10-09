@@ -2,9 +2,20 @@
 
 Сайт-лендинг образовательного проекта «Балапанлар».
 
-# Доработка лендинга
+# Используемые технологии
+- HTML5
+- CCS3
+- Методология БЭМ (файловая структура)
+- Flexbox
+- Позиционирование
+- Grid
+- Media queries
+- JavaScript
 
-16 когорта web+  
-4 команда 
+# Ключевые точки перехода
 
-Задачи в Трелло: https://trello.com/b/hYiqZ37L/workspace-team-4
+
+# Ссылки
+
+* [Ссылка на макет в Figma](https://www.figma.com/file/K9ovZvLBB1qs5AzjYoZNWm/Balapanlar-design?node-id=0%3A1)
+* Ссылка на github-pages
