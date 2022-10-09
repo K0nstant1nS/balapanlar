@@ -5,7 +5,10 @@
 	box-sizing: border-box;
 	width: 100%;
 	padding: 0 75px 10px;
-	background-image: url('../../../images/intro.jpg');
+	background-image: image-set(
+		url('../../../images/intro_3840.jpg') 1x,
+		url('../../../images/intro.jpg') 2x
+	);
 	background-repeat: no-repeat;
 	background-position: 63% 43%;
 	background-size: 100%;
@@ -13,6 +16,14 @@
 	aspect-ratio: 1.69 / 1;
 }
 
+@media screen and (max-width: 1800px) {
+	.intro__lead {
+		background-image: image-set(
+			url('../../../images/intro_2000.jpg') 1x,
+			url('../../../images/intro_3840.jpg') 2x
+		);
+	}
+}
 
 @media screen and (max-width: 1315px) {
 	.intro__lead {
@@ -39,9 +50,14 @@
 
 @media screen and (max-width: 1200px) {
 	.intro__lead {
+		background-image: image-set(
+			url('../../../images/intro_1484.jpg') 1x,
+			url('../../../images/intro_2970.jpg') 2x
+		);
 		border-radius: 50px;
 	}
 }
+
 
 @media screen and (max-width: 640px) {
 	.intro__lead {
