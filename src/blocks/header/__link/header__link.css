@@ -1,6 +1,6 @@
 .header__link {
 	position: relative;
-	color: #000000;
+	color: #252525;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
@@ -14,13 +14,19 @@
 	width: 0%;
 	height: 1px;
 	margin: auto;
-	background: #000000;
+	background: #252525;
 	transition: all 0.5s;
 	content: '';
 }
 
 .header__link:hover::after {
 	width: 100%;
+}
+
+.header__link:focus-visible {
+	border-radius: 60px;
+	outline: 2px solid #252525;
+	outline-offset: 13px;
 }
 
 @media screen and (max-width: 768px) {

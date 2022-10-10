@@ -12,16 +12,16 @@ class Tween {
 			scrollTrigger: {
 				trigger: this.data.triggerSelector,
 				pin: tweenData.pinState,
-				start: "top top",
+				start: tweenData.start || 'top top',
 				scrub: 1,
-				snap: 0.5,
+				snap: tweenData.snap,
 				end: "bottom",
 			},
 		});
 	}
 
 	toggleTween = () => {
-		if (window.innerWidth <= this.data.tabletWidth) {
+		if (window.innerWidth <= 768) {
 			this.tween.scrollTrigger.disable();
 		} else {
 			this.tween.scrollTrigger.enable();

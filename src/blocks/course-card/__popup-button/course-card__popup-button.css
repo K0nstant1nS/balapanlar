@@ -1,7 +1,6 @@
 .course-card__popup-button {
 	position: relative;
 	padding: 0;
-	padding-bottom: 5px;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
@@ -18,13 +17,27 @@
 	width: 0%;
 	height: 1px;
 	margin: auto;
-	background: #000000;
+	background: #252525;
 	transition: all 0.5s;
 	content: '';
 }
 
 .course-card__popup-button:hover::after {
 	width: 100%;
+}
+
+.course-card__popup-button:focus-visible {
+	border-radius: 60px;
+	outline: 2px solid #252525;
+	outline-offset: 22px;
+}
+
+@media screen and (max-width: 660px) {
+	.course-card__popup-button:focus-visible {
+		border-radius: 30px;
+		outline: 1px solid #252525;
+		outline-offset: 10px;
+	}
 }
 
 @media screen and (max-width: 570px) {

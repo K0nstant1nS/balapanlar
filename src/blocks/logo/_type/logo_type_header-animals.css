@@ -3,7 +3,7 @@
 	width: 105px;
 	height: 100px;
 	margin-right: 115px;
-	background-image: url('../../../vendor/images/logo-animals.svg');
+	background-image: url('../../../images/logo-animals.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -19,6 +19,10 @@
 		width: 155px;
 		height: 148px;
 		margin-bottom: 60px;
+	}
+
+	.no-js .logo_type_header-animals {
+		display: none;
 	}
 }
 

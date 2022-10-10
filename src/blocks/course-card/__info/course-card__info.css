@@ -11,5 +11,6 @@
 	.course-card__info {
 		font-size: 16px;
 		line-height: 19.5px;
+		letter-spacing: 0;
 	}
 }

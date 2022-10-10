@@ -13,36 +13,13 @@
 
 .button:hover {
 	background-color: #353535;
-	will-change: animation;
-	animation: swing 2s ease-in-out forwards;
 }
 
 .button:active {
 	border: 0;
 }
 
-@keyframes swing {
-	0% {
-		transform: rotate(0);
-	}
-
-	20% {
-		transform: rotate(1deg);
-	}
-
-	40% {
-		transform: rotate(-1deg);
-	}
-
-	60% {
-		transform: rotate(1deg);
-	}
-
-	80% {
-		transform: rotate(-1deg);
-	}
-
-	100% {
-		transform: rotate(0);
-	}
+.button:focus-visible {
+	outline: 2px solid #252525;
+	outline-offset: 2px;
 }

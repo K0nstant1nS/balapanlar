@@ -5,7 +5,7 @@
 	display: flex;
 	align-items: flex-end;
 	width: 100%;
-	max-width: 400px;
+	max-width: 429px;
 	max-height: 100%;
 	margin: 0;
 	font-weight: 600;
@@ -49,6 +49,8 @@
 
 @media screen and (max-width: 480px) {
 	.about__school-title {
+		bottom: 16px;
+		left: 15px;
 		max-width: 40%;
 		font-size: 7.2vw;
 		line-height: normal;

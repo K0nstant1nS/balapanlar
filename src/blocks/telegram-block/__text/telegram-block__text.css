@@ -8,12 +8,26 @@
 	letter-spacing: -0.5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 	.telegram-block__text {
-		margin-left: 15px;
 		font-size: 16px;
 		line-height: 20px;
 		letter-spacing: normal;
 		text-align: left;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.telegram-block__text {
+		margin-left: 0;
+		padding-right: 45px;
+		padding-left: 45px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.telegram-block__text {
+		padding: 0;
 	}
 }
