@@ -14,7 +14,7 @@
 
 # Ссылки
 * [Ссылка на макет в Figma](https://www.figma.com/file/K9ovZvLBB1qs5AzjYoZNWm/Balapanlar-design?node-id=0%3A1)
-* [сылка на github-pages](https://smgvasya.github.io/Balapanlar-test-after-front/)
+* [Ccылка на github-pages](https://smgvasya.github.io/Balapanlar-test-after-front/)
 
 # Доп. информация
 
