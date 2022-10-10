@@ -15,3 +15,9 @@
 # Ссылки
 * [Ссылка на макет в Figma](https://www.figma.com/file/K9ovZvLBB1qs5AzjYoZNWm/Balapanlar-design?node-id=0%3A1)
 * [сылка на github-pages](https://smgvasya.github.io/Balapanlar-test-after-front/)
+
+# Доп. информация
+
+На этапе разработки клиент не предоставил ссылку для оплаты курсов
+
+![image](https://user-images.githubusercontent.com/105941050/194845605-3cbf3f2c-152d-4265-a09c-b91cd5f49a14.png)
