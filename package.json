@@ -1,5 +1,6 @@
 {
 	"private": true,
+	"homepage": "https://k0nstant1ns.github.io/balapanlar/",
 	"devDependencies": {
 		"@babel/core": "^7.18.10",
 		"@babel/preset-env": "^7.18.10",
